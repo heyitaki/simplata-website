@@ -23,6 +23,12 @@
   max-width: 13vw;
 }
 
+@media (max-width: 500px) {
+  .navbar-logo {
+    max-width: 90px;
+  }
+}
+
 .navbar-align {
   max-width: inherit !important;
 }
@@ -36,7 +42,7 @@
       url('AvenirLTStd-Book.ttf') format('truetype'),
       url('AvenirLTStd-Book.svg#AvenirLTStd-Book') format('svg');
   line-height: normal;
-  font-size: 48px !important;
+  /*font-size: 48px !important;*/
   text-align: left;
   background: white;
   padding-left: 15px;
@@ -52,12 +58,41 @@
 
 .btn-demo {
   margin-top: 40px;
-  width: 19vw;
   font-family: 'Avenir LT Std';
-  font-size: 18px;
+  /*font-size: 18px;*/
   font-weight: 100;
   font-style: normal;
   letter-spacing: 0.75px;
+}
+
+@media (max-width: 500px) {
+  .btn-demo {
+    width: 125px;
+    height: 35px;
+    font-size: 12px;
+    vertical-align: middle;
+  }
+  .btn-xl {
+    padding: 10px 5px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn-demo {
+    width: 175px;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn-demo {
+    width: 250px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn-demo {
+    width: 250px;
+  }
 }
 
 .top-third-vertical {
@@ -65,11 +100,16 @@
   margin-bottom: auto !important;
 }
 
+/*@media (max-width: 500px) {
+  .top-third-vertical {
+    margin-top: 25vh !important;
+    margin-bottom: auto !important;
+  }
+}*/
+
 .text-regular {
   color: black;
   font-family: 'Avenir LT Std';
-  font-size: 18px;
-  font-weight: 100;
   font-style: normal;
   text-align: left;
   margin-top: 30px;
@@ -83,6 +123,24 @@ footer {
   padding-bottom: 8.125em;
   border: 1px solid red;
 }
+
+
+@media (max-width: 500px) {
+  .resized-container-mobile {
+    width: 100%;
+    padding-right: 45px;
+    padding-left: 45px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+
+
+
+
+
+
 
 /*! BUILT-IN */
 
@@ -266,6 +324,15 @@ header.masthead {
   background-color: #E1E2F4;
   background-position: center center;
   background-size: cover;
+  height: 100%;
+}
+
+@media (max-width: 1100px) {
+  header.masthead {
+    padding-top: 50px;
+    background-image: none;
+    background-color: #E1E2F4;
+  }
 }
 
 .logo-img {
@@ -277,8 +344,14 @@ header.masthead hr {
   margin-bottom: 30px;
 }
 
-header.masthead h1 {
-  font-size: 2rem;
+@media (max-width: 500px) {
+  header.masthead h1 {
+    font-size: 1.2rem;
+  }  
+  header.masthead p {
+    font-size: 10px;
+    line-height: 15px;
+  }
 }
 
 header.masthead p {
@@ -305,7 +378,7 @@ header.masthead p {
 
 @media (min-width: 1200px) {
   header.masthead h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
