@@ -20,7 +20,7 @@
 }
 
 .navbar-logo {
-  max-width: 15vw;
+  max-width: 13vw;
 }
 
 .navbar-align {
@@ -36,7 +36,7 @@
       url('AvenirLTStd-Book.ttf') format('truetype'),
       url('AvenirLTStd-Book.svg#AvenirLTStd-Book') format('svg');
   line-height: normal;
-  font-size: 64px;
+  font-size: 48px !important;
   text-align: left;
   background: white;
   padding-left: 15px;
@@ -52,8 +52,9 @@
 
 .btn-demo {
   margin-top: 40px;
-  width: 22vw;
-  font-size: 20px;
+  width: 19vw;
+  font-family: 'Avenir LT Std';
+  font-size: 18px;
   font-weight: 100;
   font-style: normal;
   letter-spacing: 0.75px;
@@ -62,6 +63,17 @@
 .top-third-vertical {
   margin-top: 25vh !important;
   margin-bottom: auto !important;
+}
+
+.text-regular {
+  color: black;
+  font-family: 'Avenir LT Std';
+  font-size: 18px;
+  font-weight: 100;
+  font-style: normal;
+  text-align: left;
+  margin-top: 30px;
+  line-height: 25px;
 }
 
 footer {
@@ -250,7 +262,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  /*background-image: url("../img/header.jpg");*/
+  background-image: url("../img/graph-preview.png");
   background-color: #E1E2F4;
   background-position: center center;
   background-size: cover;
