@@ -33,7 +33,7 @@
   max-width: inherit !important;
 }
 
-.text-uppercase-blue {
+.text-blue {
   font-family: 'Avenir LT Std';
   src: url('AvenirLTStd-Book.eot');
   src: url('AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
@@ -42,18 +42,70 @@
       url('AvenirLTStd-Book.ttf') format('truetype'),
       url('AvenirLTStd-Book.svg#AvenirLTStd-Book') format('svg');
   line-height: normal;
-  /*font-size: 48px !important;*/
+  font-size: 1.25rem;
   text-align: left;
-  background: white;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
   margin: 0;
   color: #2E9CCA;
   font-weight: 100;
   font-style: normal;
   letter-spacing: 0.75px;
+}
+
+.text-white-box {
+  background: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.text-white {
+  font-family: 'Avenir LT Std';
+  src: url('AvenirLTStd-Book.eot');
+  src: url('AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
+      url('AvenirLTStd-Book.woff2') format('woff2'),
+      url('AvenirLTStd-Book.woff') format('woff'),
+      url('AvenirLTStd-Book.ttf') format('truetype'),
+      url('AvenirLTStd-Book.svg#AvenirLTStd-Book') format('svg');
+  line-height: normal;
+  text-align: left;
+  margin: 0;
+  color: white;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 0.75px;
+}
+
+.text-grey {
+  color: #25274D;
+  font-family: 'Avenir LT Std';
+  src: url('AvenirLTStd-Book.eot');
+  src: url('AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
+      url('AvenirLTStd-Book.woff2') format('woff2'),
+      url('AvenirLTStd-Book.woff') format('woff'),
+      url('AvenirLTStd-Book.ttf') format('truetype'),
+      url('AvenirLTStd-Book.svg#AvenirLTStd-Book') format('svg');
+  line-height: normal;
+  font-size: 1.25rem;
+  text-align: left;
+  margin: 0;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 0.75px;
+}
+
+@media (max-width: 1250px) {
+  .text-grey, .text-blue {
+    font-size: 1.1rem;
+  }
+}
+
+.text-blue-box {
+  background: #2E9CCA;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .btn-demo {
@@ -135,6 +187,60 @@ footer {
   }
 }
 
+.feature.boxed {
+  background: #fff;
+  transition: 0.2s linear;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+}
+
+.feature {
+  margin-bottom: 30px;
+  outline: 1px solid #ebebeb;
+  overflow-y: hidden;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.feature.boxed {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+    z-index: 2;
+}
+
+.boxed {
+    position: relative;
+    overflow: hidden;
+    padding: 2.4375em;
+    margin-bottom: 30px;
+}
+
+.features-container {
+  margin-top: 50px;
+}
+
+.feature-img {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.feature-description {
+  font-family: 'Avenir LT Std';
+  src: url('AvenirLTStd-Book.eot');
+  src: url('AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
+      url('AvenirLTStd-Book.woff2') format('woff2'),
+      url('AvenirLTStd-Book.woff') format('woff'),
+      url('AvenirLTStd-Book.ttf') format('truetype'),
+      url('AvenirLTStd-Book.svg#AvenirLTStd-Book') format('svg');
+  line-height: normal;
+  text-align: center;
+  margin: 0;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
 
 
 
@@ -200,7 +306,7 @@ h6 {
 }
 
 section {
-  padding: 8rem 0;
+  padding: 5rem 0;
 }
 
 .section-heading {
