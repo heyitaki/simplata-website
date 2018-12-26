@@ -165,29 +165,47 @@
         </div>
         <div class="col">
         </div>
-        <img src="./img/palette-preview.png" class="palette-preview-img drop-shadow">
+        <div class="palette-preview-img-container">
+          <img src="./img/palette-preview.png" class="palette-preview-img drop-shadow">
+          <h1 class="text-grey large-buffer">Features</h2>
+          <br>
+          <div class="row left-align">
+            <div class="col"><img src="./img/trending.png" class="sr-icon-4 feature1-img"></div>
+            <div class="col"><img src="./img/trending.png" class="sr-icon-4 feature1-img"></div>
+          </div>
+          <div class="row left-align">
+            <div class="col"><h5 class="text-grey feature-inline">Rapid Search</h5></div>
+            <div class="col"><h5 class="text-grey feature-inline">Secure Storage</h5></div>
+          </div>
+          <div class="row left-align buffer">
+            <div class="col"><img src="./img/trending.png" class="sr-icon-4 feature1-img"></div>
+            <div class="col"><img src="./img/trending.png" class="sr-icon-4 feature1-img"></div>
+          </div>
+          <div class="row left-align">
+            <div class="col"><h5 class="text-grey feature-inline">Graph Visualization</h5></div>
+            <div class="col"><h5 class="text-grey feature-inline">Entity Resolution</h5></div>
+          </div>
+        </div>
       </span>
 
       <span class="container product-box buffer no-padding">
-        <div class="col">
-        </div>
-        <div class="col no-padding left-align">
-          <div class="container">
-            <div class="row align-items-start">
-              <h1 class="text-grey">Features</h2>
-            </div>
-          </div>
-          <br>
-          <p class="text-regular text-grey">
-            Data isn’t files and folders, nor is it excel spreadsheets. It’s entities, with connections that make them valuable.
-          </p>
-          <p class="text-regular text-grey">
-            Upload your data into Palette, our graph visualization software, and <b class="bold">explore connected entities.</b> Easily view attributes and expand nodes to better understand investigative reports, internal datasets and other
-            critical datasets.
-          </p>
-        </div>
         <img src="./img/entity-card-preview.png" class="entity-preview-img drop-shadow">
       </span>
+<!--       <span class="container product-box buffer no-padding">
+        <div class="container">
+          <div class="row align-items-start">
+            <h1 class="text-grey">Features</h2>
+          </div>
+        </div>
+        <br>
+        <p class="text-regular text-grey">
+          Data isn’t files and folders, nor is it excel spreadsheets. It’s entities, with connections that make them valuable.
+        </p>
+        <p class="text-regular text-grey">
+          Upload your data into Palette, our graph visualization software, and <b class="bold">explore connected entities.</b> Easily view attributes and expand nodes to better understand investigative reports, internal datasets and other
+          critical datasets.
+        </p>
+      </span> -->
     </section>
 
 
@@ -223,7 +241,7 @@
             </div>
             <div class="large-buffer">
               <img src="./img/team.png" class="sr-icon-4 feature-img">
-              <h2 class="text-blue title-inline">Share </h2><h2 class="text-grey title-inline">Insight</h2>
+              <h2 class="text-blue title-inline">Share </h2><h2 class="text-grey title-inline">Insights</h2>
               <p class="text-grey text-solutions">Fuel collaboration within or across organizations with team features.</p>
             </div>
           </div>
@@ -240,13 +258,13 @@
       <!-- particles.js container -->
       <div class="container">
         <div class="row large-buffer right-align">
-          <h1 class="text-blue text-white-box">
+          <h1 class="text-blue text-white-box" style="z-index: 10">
             Show your story
           </h1>
         </div>
         <div class="row">
-          <div class="col">
-            <p class="text-white large-buffer">Simplata builds collaborative data analysis software. The world needs accountability and transparency that will only happen when <b class="bold">everyone</b> has access to data insights. With Palette, we’re one step closer.
+          <div class="col large-buffer" style="z-index: 10">
+            <p class="text-white">Simplata builds collaborative data analysis software. The world needs accountability and transparency that will only happen when <b class="bold">everyone</b> has access to data insights. With Palette, we’re one step closer.
             </p>
           </div>
           <div class="col"></div>
@@ -254,29 +272,29 @@
         <div class="row large-buffer">
           <div class="col">
             <ul class="navbar-nav ml-auto">
-              <li class="footer-item">
+              <li class="footer-item" style="z-index: 10">
                 <a class="bottom-nav-link text-white js-scroll-trigger" href="#product">Product</a>
               </li>
-              <li class="footer-item">
+              <li class="footer-item" style="z-index: 10">
                 <a class="bottom-nav-link text-white js-scroll-trigger" href="#solutions">Solutions</a>
               </li>
-              <li class="footer-item">
+              <li class="footer-item" style="z-index: 10">
                 <a class="bottom-nav-link text-white js-scroll-trigger" href="#team">Team</a>
               </li>
-              <li class="footer-item">
+              <li class="footer-item" style="z-index: 10">
                 <a class="bottom-nav-link text-white js-scroll-trigger" href="mailto:hello@simplata.io">Contact</a>
               </li>
             </ul>
           </div>
           <div class="col"></div>
         </div>
-        <div class="buffer footer-legal">
-          <span class="footer-legal-block text-white">© Simplata, Inc.</span>
-          <a href="#privary-policy" class="footer-legal-block text-white footer-link">Data Privacy Statement</a>
-          <a href="#terms-of-use" class="footer-legal-block text-white footer-link">Terms of Use</a>
+        <div class="footer-legal buffer">
+            <span class="footer-legal-block text-white" style="z-index: 10">© Simplata, Inc.</span>
+            <a href="#privary-policy" class="footer-legal-block text-white footer-link" style="z-index: 10">Data Privacy Statement</a>
+            <a href="#terms-of-use" class="footer-legal-block text-white footer-link" style="z-index: 10">Terms of Use</a>
         </div>
       </div>
-      <div id="particles-js"></div>
+      <div id="particles-js" style="position: absolute;"></div>
     </section>
 
 <!--     <section id="contact">

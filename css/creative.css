@@ -242,6 +242,12 @@ footer {
   margin-left: 1vw;
 }
 
+.feature1-img {
+  width: 3.5vw;
+  margin-bottom: 12px;
+  min-width: 30px;
+}
+
 .feature-description {
   font-family: 'Avenir LT Std';
   src: url('AvenirLTStd-Book.eot');
@@ -310,9 +316,16 @@ footer {
   padding-top: 150px;
 }
 
+#product {
+  padding-bottom: 20vw;
+}
+
 #footer {
   background-color: #2E9CCA;
   padding-bottom: 30px;
+  padding-top: 0.5px;
+  display: flex;
+  justify-content: center;
 }
 
 #solutions {
@@ -327,6 +340,9 @@ footer {
 
 .palette-preview-img {
   width: 45vw;
+}
+
+.palette-preview-img-container {
   position: absolute;
   right: 0;
 }
@@ -401,10 +417,12 @@ footer {
   text-align: left;
   display: block;
   letter-spacing: .025rem;
+  position: relative;
 }
 
 .footer-legal-block {
   padding-right: 15px;
+  position: relative;
 }
 
 .footer-link:hover {
@@ -413,7 +431,8 @@ footer {
 }
 
 .footer-item {
-  margin-bottom: 13px
+  margin-bottom: 13px;
+  width: fit-content;
 }
 
 .title-inline {
@@ -421,10 +440,20 @@ footer {
   padding-right: 10px;
 }
 
+.feature-inline {
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 1.05em;
+}
+
 .text-solutions {
   padding-top: 10px; 
   padding-left: 6vw;
 }
+
+
+
+
 
 
 
