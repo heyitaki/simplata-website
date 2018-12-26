@@ -7,6 +7,7 @@ canvas{ display: block; vertical-align: bottom; } */
 	background-color: #2e9cca; 
 	background-image: url(""); 
 	background-repeat: no-repeat; 
-	background-size: cover; 
-	background-position: 50% 50%; 
+	background-size: auto; 
+	background-position: 50% 50%;
+	height: 87.85%;
 }

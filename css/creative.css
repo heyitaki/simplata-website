@@ -310,6 +310,7 @@ footer {
   _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
   position: absolute;
   z-index: 1;
+  pointer-events: none;
 }
 
 #product, #footer {
