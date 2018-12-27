@@ -237,7 +237,7 @@ footer {
 .feature-img {
   width: 4vw;
   margin-bottom: 12px;
-  min-width: 30px;
+  min-width: 45px;
   margin-right: 1vw;
   margin-left: 1vw;
 }
@@ -453,12 +453,31 @@ footer {
   padding-left: 6vw;
 }
 
+@media (max-width: 1000px) {
+  .text-solutions {
+    padding-top: 10px; 
+    padding-left: 0vw;
+    text-align: center;
+  }
+  .title-inline {
+    text-align: center;
+    display: block;
+    padding-right: 0px;
+  }
+  .solutions-center {
+    text-align: center;
+  }
+}
 
+.small-screen-expand {
+  height: 0vw;
+}
 
-
-
-
-
+@media (max-width: 900px) {
+  .small-screen-expand {
+    height: 6vw;
+  }
+}
 
 
 
@@ -668,7 +687,7 @@ header.masthead {
 @media (max-width: 1000px) {
   header.masthead {
     padding-top: 50px;
-    background-image: none;
+    background-image: url("../img/graph-preview-small-screen.png");
     background-color: #E1E2F4;
   }
 }
