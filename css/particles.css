@@ -7,7 +7,5 @@ canvas{ display: block; vertical-align: bottom; } */
 	background-color: #2e9cca; 
 	background-image: url(""); 
 	background-repeat: no-repeat; 
-	background-size: auto; 
 	background-position: 50% 50%;
-	height: fit-content;
 }

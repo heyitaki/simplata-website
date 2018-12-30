@@ -154,6 +154,10 @@
   margin-bottom: auto !important;
 }
 
+.team-header-buffer {
+  margin-top: 15vh !important;
+}
+
 /*@media (max-width: 500px) {
   .top-third-vertical {
     margin-top: 25vh !important;
@@ -368,6 +372,10 @@ footer {
   float: left;
 }
 
+.right-float {
+  float: right;
+}
+
 .buffer {
   margin-top: 30px;
 }
@@ -403,6 +411,8 @@ footer {
   padding-top: 2px;
   padding-bottom: 2px;
   font-size: 1em;
+  font-weight: 900;
+  text-decoration: none;
 }
 
 .bottom-nav-link:hover {
@@ -429,8 +439,9 @@ footer {
 }
 
 .footer-item {
-  margin-bottom: 13px;
   width: fit-content;
+  font-weight: 900;
+  text-decoration: none;
 }
 
 .title-inline {
@@ -490,6 +501,126 @@ footer {
     height: 10vw;
   }
 }
+
+.team-photo-blue {
+  transition: 0.3s;
+  height: 366px;
+  background-color: #9ECCE7;
+}
+
+.team-photo-pink {
+  transition: 0.3s;
+  height: 366px;
+  background-color: #F2B9CC;
+}
+
+.pastel-blue-color {
+  transition: 0.3s;
+  background-color: #9ECCE7;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.pastel-pink-color {
+  transition: 0.3s;
+  background-color: #F2B9CC;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.pastel-blue-color:hover img {
+  transition: 0.3s;
+  opacity: 0.3;
+}
+
+.pastel-pink-color:hover img {
+  transition: 0.3s;
+  opacity: 0.3;
+}
+
+.pastel-blue-color:hover .text-team, .title {
+  transition: 0.3s;
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+.pastel-pink-color:hover .text-team, .title {
+  transition: 0.3s;
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+.pastel-pink-color:hover .overlay {
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.pastel-blue-color:hover .overlay {
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.overlay {
+    transition: 0.3s;
+    position: absolute;
+    width: 75%;
+    height: 85%;
+    margin: 0;
+    padding: 25px;
+    opacity: 0;
+    background-color: rgba(255,255,255, 0.9);
+}
+
+.text-team {
+  transition: 0.25s;
+  font-family: "Montserrat", sans-serif;
+  opacity: 0;
+  color: #2f2f2f;
+  margin-bottom: 3px;
+  font-weight: 100;
+  transform: translate3d(10px, 0, 0);
+  -webkit-transform: translate3d(10px, 0, 0);
+}
+
+.title {
+  transition: 0.25s;
+  font-family: "Montserrat", sans-serif;
+  opacity: 0;
+  font-size: 10px;
+  font-weight: 400;
+  color: #2f2f2f;
+  transform: translate3d(10px, 0, 0);
+  -webkit-transform: translate3d(10px, 0, 0);
+}
+
+.team-page {
+  border-color: #ffffff transparent transparent transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
