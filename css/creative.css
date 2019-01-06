@@ -23,6 +23,10 @@
   max-width: 9vw;
 }
 
+.row {
+  margin-right: 0px;
+}
+
 @media (max-width: 750px) {
   .navbar-logo {
     max-width: 90px;
@@ -324,7 +328,7 @@ footer {
 #footer {
   background-color: #2E9CCA;
   padding-bottom: 30px;
-  padding-top: 0.5px;
+  padding-top: 5px;
   display: flex;
   justify-content: center;
 }
@@ -442,6 +446,7 @@ footer {
   width: fit-content;
   font-weight: 900;
   text-decoration: none;
+  padding-right: 20px;
 }
 
 .title-inline {
@@ -604,6 +609,134 @@ footer {
 .team-page {
   border-color: #ffffff transparent transparent transparent;
 }
+
+.footer-content-special {
+  margin-top: 150px; z-index: 100; pointer-events: none; position: relative;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently */
+}
+
+/*@media (max-width: 1100px) {
+  #particles-js {
+    display: none;
+  }
+}*/
+
+.special-footer {
+  flex-direction: row;
+}
+
+@media (max-width: 500px) {
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .mobile-special-delete {
+    display: none;
+  }
+
+  .palette-preview-img {
+    width: 85%;
+    margin-top: 50px;
+  }
+
+  .palette-preview-img-container {
+    text-align: center;
+    position: relative;
+  }
+
+  .entity-preview-img {
+    display: none;
+  }
+
+  .product-box {
+    display: block;
+  }
+
+  .text-regular {
+    line-height: 15px;
+  }
+
+  .mobile-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .large-buffer {
+    margin-top: 40px;
+  }
+
+  #product {
+    padding-top: 100px;
+  }
+
+  .transition-header {
+    border-width: 100px 0 0 100vw;
+  }
+
+  .solutions-header {
+    border-width: 0 0 100px 100vw;
+    position: absolute;
+    margin-top: -100px;
+  }
+
+  .negative-large-buffer {
+     margin-top: 40px; 
+  }
+
+  .solutions-end {
+    border-width: 100px 100vw 0 0;
+  }
+
+  #footer {
+    padding-top: 20px;
+  }
+
+  .footer-content-special {
+    margin-top: 20px;
+  }
+
+  .footer-legal {
+    font-size: 10px;
+  }
+
+  .special-footer {
+    flex-direction: column;
+  }
+
+  .footer-item {
+    padding-bottom: 10px;
+    font-size: 0.7em;
+  }
+
+  .text-solutions, .text-white, .text-regular {
+    font-size: 11px;
+  }
+
+  .feature-inline {
+    font-size: 0.95em;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  .text-white h1 {
+    font-size: 1.2rem;
+  }  
+}
+
+.text-grey-terms {
+  font-size: 1rem;
+}
+
+
+
 
 
 
