@@ -56,10 +56,10 @@
 
 .text-white-box {
   background: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-left: 0.65em;
+  padding-right: 0.65em;
+  padding-top: 0.45em;
+  padding-bottom: 0.45em;
 }
 
 .text-white {
@@ -108,10 +108,10 @@
 
 .text-blue-box {
   background: #2E9CCA;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-left: 0.65em;
+  padding-right: 0.65em;
+  padding-top: 0.45em;
+  padding-bottom: 0.45em;
 }
 
 .btn-demo {
@@ -698,7 +698,7 @@ footer {
   }
 
   .footer-content-special {
-    margin-top: 20px;
+    margin-top: 40px;
   }
 
   .footer-legal {
@@ -726,13 +726,13 @@ footer {
     font-size: 1rem;
   }
 
-  .text-white h1 {
+  h1.text-white {
     font-size: 1.2rem;
   }  
-}
 
-.text-grey-terms {
-  font-size: 1rem;
+  .center-special {
+    text-align: center;
+  }
 }
 
 
@@ -991,7 +991,7 @@ header.masthead hr {
 
 @media (min-width: 768px) {
   p {
-    font-size: 1.15rem;
+    font-size: 1rem;
   }
 }
 
@@ -1010,6 +1010,12 @@ header.masthead hr {
 @media (min-width: 1200px) {
   h1 {
     font-size: 3rem;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 0.83rem;
   }
 }
 
