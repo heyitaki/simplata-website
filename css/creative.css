@@ -179,7 +179,11 @@
 }
 
 .header-text {
-    width: 30vw;
+    width: 20vw;
+}
+
+.feature-adjust {
+  margin-left: -2vw;
 }
 
 footer {
@@ -324,6 +328,10 @@ footer {
 #product {
   padding-bottom: 20vw;
 }
+
+.extra-large-buffer {
+    margin-top: 130px;
+  }
 
 #footer {
   background-color: #2E9CCA;
@@ -636,6 +644,14 @@ footer {
     margin-right: 0;
   }
 
+  .feature-adjust {
+    margin-left: 0;
+  }
+
+  .special-large {
+    font-size: 0.95em;
+  }
+
   .mobile-special-delete {
     display: none;
   }
@@ -668,6 +684,10 @@ footer {
   }
 
   .large-buffer {
+    margin-top: 40px;
+  }
+
+  .extra-large-buffer {
     margin-top: 40px;
   }
 
@@ -952,7 +972,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/graph-preview.png");
+  background-image: url("../img/graph-preview2.png");
   background-color: #E1E2F4;
   background-position: center center;
   background-size: cover;
@@ -962,7 +982,7 @@ header.masthead {
 @media (max-width: 1000px) {
   header.masthead {
     padding-top: 50px;
-    background-image: url("../img/graph-preview-small-screen.png");
+    background-image: url("../img/graph-preview-small-screen2.png");
     background-color: #E1E2F4;
   }
 }
