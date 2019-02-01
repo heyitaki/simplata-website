@@ -638,6 +638,17 @@ footer {
   flex-direction: row;
 }
 
+.banner {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    font-family: 'Avenir LT Std', Arial, sans-serif;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top: 0;
+}
+
 @media (max-width: 500px) {
   .row {
     margin-left: 0;
