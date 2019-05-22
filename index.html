@@ -17,7 +17,7 @@
                     <div class="brand header-brand">
                         <h1 class="m-0">
                             <a href="#">
-								<img class="header-logo-image asset-dark" src="dist/images/logo-dark.svg" alt="Logo">
+								<img class="header-logo-image asset-dark" src="dist/images/simplata-logo-inverted.png" alt="Logo">
                             </a>
                         </h1>
                     </div>
@@ -31,20 +31,20 @@
                     <div class="hero-inner">
 						<div class="hero-copy">
 	                        <h1 class="hero-title mt-0">Making data simple.</h1>
-	                        <p class="hero-paragraph">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+	                        <p class="hero-paragraph">You don't need to be a rocket scientist to understand data. We build tools so <b style="color: #ebebeb;">anyone</b> can explore public data.</p>
 	                        <div class="hero-cta">
-								<a class="button button-primary" href="#">Find out more</a>
+								<a class="button button-primary" href="#product-section">Find out more</a>
 							</div>
 						</div>
 						<div class="hero-media">
 							<div class="header-illustration">
-								<img class="header-illustration-image asset-dark" src="dist/images/header-illustration-dark.svg" alt="Header illustration">
+								<img class="header-illustration-image asset-dark" style="opacity: 0.75;" src="dist/images/header-illustration-dark.svg" alt="Header illustration">
 							</div>
 							<div class="hero-media-illustration">
-								<img class="hero-media-illustration-image asset-dark" src="dist/images/hero-media-illustration-dark.svg" alt="Hero media illustration">
+								<img class="hero-media-illustration-image asset-dark" style="opacity: 0.35;" src="dist/images/hero-media-illustration-dark.svg" alt="Hero media illustration">
 							</div>
 							<div class="hero-media-container">
-								<img class="hero-media-image asset-dark" src="dist/images/hero-media-dark.svg" alt="Hero media">
+								<img class="hero-media-image asset-dark" id="intro-image" src="dist/images/intro-image.png" alt="Hero media">
 							</div>
 						</div>
                     </div>
@@ -53,15 +53,15 @@
 
             <section class="features section">
                 <div class="container">
-					<div class="features-inner section-inner has-bottom-divider">
+					<div class="features-inner section-inner">
 						<div class="features-header text-center">
 							<div class="container-sm">
-								<h2 class="section-title mt-0">Introducing Palette!</h2>
-	                            <p class="section-paragraph">Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.</p>
+								<h2 class="section-title mt-0" id="product-section">Introducing Palette!</h2>
+	                            <p class="section-paragraph">The most intuitive data visualization platform ever.</p>
 								<div class="features-image">
-									<img class="features-illustration asset-dark" src="dist/images/features-illustration-dark.svg" alt="Feature illustration">
-									<img class="features-box asset-dark" src="dist/images/features-box-dark.svg" alt="Feature box">
-									<img class="features-illustration asset-dark" src="dist/images/features-illustration-top-dark.svg" alt="Feature illustration top">
+									<img class="features-illustration asset-dark" id="palette-demo-illustration-bottom" src="dist/images/features-illustration-dark.svg" alt="Feature illustration">
+									<img class="features-box asset-dark" id="palette-demo-box" src="dist/images/palette-demo.png" alt="Feature box">
+									<img class="features-illustration asset-dark" id="palette-demo-illustration-top" src="dist/images/features-illustration-top-dark.svg" alt="Feature illustration top">
 								</div>
 							</div>
                         </div>
@@ -69,33 +69,33 @@
                             <div class="feature is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img class="asset-dark" src="dist/images/feature-01-dark.svg" alt="Feature 01">
+										<img class="asset-dark" src="dist/images/feature-02-dark.svg" alt="Feature 01">
                                     </div>
 									<div class="feature-content">
-                                    	<h3 class="feature-title mt-0">Discover</h3>
-                                    	<p class="text-sm mb-0">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dui.</p>
+                                    	<h3 class="feature-title mt-0">Search</h3>
+                                    	<p class="text-sm mb-0">We use fuzzy matching, transliteration, and full text coverage to find you the most relevant data.</p>
 									</div>
 								</div>
                             </div>
 							<div class="feature is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img class="asset-dark" src="dist/images/feature-02-dark.svg" alt="Feature 02">
+										<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Feature 02">
                                     </div>
 									<div class="feature-content">
                                     	<h3 class="feature-title mt-0">Discover</h3>
-                                    	<p class="text-sm mb-0">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dui.</p>
+                                    	<p class="text-sm mb-0">Use simple graph exploration tools to step through networks and quickly find important connections.</p>
 									</div>
 								</div>
                             </div>
 							<div class="feature is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Feature 03">
+										<img class="asset-dark" src="dist/images/feature-01-dark.svg" alt="Feature 03">
                                     </div>
 									<div class="feature-content">
-                                    	<h3 class="feature-title mt-0">Discover</h3>
-                                    	<p class="text-sm mb-0">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dui.</p>
+                                    	<h3 class="feature-title mt-0">Connect</h3>
+                                    	<p class="text-sm mb-0">Let us connect and visualize your data, so that you can find relationships between entities in completely different datasets. </p>
 									</div>
 								</div>
                             </div>
@@ -108,10 +108,8 @@
                 <div class="container-sm">
                     <div class="cta-inner section-inner">
                         <div class="cta-header text-center">
-                            <h2 class="section-title mt-0">Get it and Switch</h2>
-                            <p class="section-paragraph">Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.</p>
 							<div class="cta-cta">
-								<a class="button button-primary" href="#">Buy it now</a>
+								<a class="button button-primary" href="https://demo.simplata.io" target="_blank">Try the demo</a>
 							</div>
 					    </div>
                     </div>
@@ -124,7 +122,7 @@
                 <div class="site-footer-inner">
                     <div class="brand footer-brand">
                         <a href="#">
-							<img class="asset-dark" src="dist/images/logo-dark.svg" alt="Logo">
+							<img class="footer-logo-image asset-dark" src="dist/images/simplata-logo-inverted.png" alt="Logo">
                         </a>
                     </div>
                     <ul class="footer-links list-reset">
@@ -167,7 +165,7 @@
                             </a>
                         </li>
                     </ul>
-                    <div class="footer-copyright">&copy; 2018 Switch, all rights reserved</div>
+                    <div class="footer-copyright">&copy; 2019 Simplata, all rights reserved.</div>
                 </div>
             </div>
         </footer>
