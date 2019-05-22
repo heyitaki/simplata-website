@@ -2126,6 +2126,11 @@ hr::after,
 
 /* Custom styles */
 
+a.disabled:hover {
+	cursor: not-allowed;
+	text-decoration: none;
+}
+
 .header-logo-image {
 	position: absolute;
 	height: 40px;
