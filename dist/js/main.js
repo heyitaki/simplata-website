@@ -8,7 +8,10 @@
         n.classList.add("lights-off");
     }
 
-    t.classList.remove("no-js"), t.classList.add("js"), window.addEventListener("load", function() {
+    t.classList.remove("no-js");
+    t.classList.add("js");
+
+    window.addEventListener("load", function() {
         n.classList.add("is-loaded");
     });
 

@@ -2126,9 +2126,12 @@ hr::after,
 
 /* Custom styles */
 
-a.disabled:hover {
-	cursor: not-allowed;
-	text-decoration: none;
+.unselectable {
+	user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
 }
 
 .header-logo-image {
@@ -2137,13 +2140,50 @@ a.disabled:hover {
 	top: 20px;
 }
 
-.footer-logo-image {
-	height: 40px;
+@media (max-width: 641px) {
+	.hero-title {
+		margin-top: 100px;
+	}
+}
+
+.header-illustration-image {
+	display: block;
+	position: absolute;
+	top: -137px;
+	left: -625px;
+	width: 1440px;
+	height: 324px
 }
 
 #intro-image {
-	height: 450px;
-	box-shadow: none;
+	height: 375px;
+	width: 550px;
+	box-shadow: 48px 16px 48px rgba(10,10,10, 0.3);
+	background: rgba(255,255,255, .05);
+	border: 2px solid rgba(255,255,255, .35);
+}
+
+@media (max-width: 641px) {
+	#intro-image {
+		display: none;
+	}
+
+	.hero-cta {
+		display: none;
+	}
+
+	.hero {
+		padding-bottom: 0px;
+	}
+}
+
+.hero-media-illustration-image {
+	display: block;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: 733px;
+	height: 749px
 }
 
 #palette-demo-illustration-top {
@@ -2169,4 +2209,8 @@ a.disabled:hover {
 	.cta.section {
 		margin-top: -100px;
 	}
+}
+
+.footer-logo-image {
+	height: 40px;
 }
