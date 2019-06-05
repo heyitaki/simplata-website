@@ -2160,7 +2160,7 @@ hr::after,
 	width: 550px;
 	box-shadow: 48px 16px 48px rgba(10,10,10, 0.3);
 	background: rgba(255,255,255, .05);
-	border: 2px solid rgba(255,255,255, .35);
+	border: 2px solid rgba(255,255,255, .1);
 }
 
 @media (max-width: 641px) {
