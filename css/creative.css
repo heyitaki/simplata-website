@@ -20,7 +20,7 @@
 }
 
 .navbar-logo {
-  max-width: 9vw;
+  max-width: 8vw;
 }
 
 .row {
@@ -221,11 +221,10 @@ footer {
   font-size: 0.95rem;
 }
 
-.feature.boxed:hover {
+/*.feature.boxed:hover {
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.17), 0 1px 2px rgba(0, 0, 0, 0.24);
-  /*box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05); */
   z-index: 2;
-}
+}*/
 
 .drop-shadow {
     transition: 0.2s linear;
@@ -702,10 +701,6 @@ footer {
     margin-top: 40px;
   }
 
-  #product {
-    padding-top: 100px;
-  }
-
   .transition-header {
     border-width: 100px 0 0 100vw;
   }
@@ -1146,3 +1141,7 @@ header.masthead hr {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(46, 156, 202, 0.75) !important;
   box-shadow: 0 0 0 0.2rem rgba(46, 156, 202, 0.75) !important;
 }
+
+ #product {
+    padding-top: 200px;
+  }
