@@ -1,0 +1,46 @@
+/*************************
+CSS Index
+* 404 Page CSS
+*************************/
+
+
+/**************
+404 Page CSS
+**************/
+
+.four-area h1 {
+	font-size: 150px;
+	margin-bottom: 30px;
+}
+
+.four-area h2 {
+	margin-bottom: 40px;
+}
+
+.four-area {
+	padding-top: 100px;
+}
+
+.four-area .button {
+	background-color: #4528EB;
+}
+
+.four-page-img {
+	position: relative;
+	z-index: 1;
+	margin-top: 80px;
+}
+
+.four-page-img:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	content: "";
+	background-image: url(../image/four-page-bg.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: -1;
+}

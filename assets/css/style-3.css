@@ -1,0 +1,791 @@
+/*********************
+CSS Index
+* Base CSS
+* Header area CSS
+* Hero area CSS
+* Service area CSS
+* Features area CSS
+* Features top area CSS
+* Features bottom area CSS
+* Testimonial area CSS
+* Team area CSS
+* Mask Group area CSS
+* Footer area CSS
+*********************/
+
+
+/*******
+Base CSS
+*******/
+
+
+/*** Body CSS ***/
+
+body {
+    font-size: 16px;
+}
+
+
+/***************
+Header area CSS
+***************/
+
+.header-btn {
+    text-align: right;
+    margin-top: 4px;
+}
+
+.is-sticky .header-4 .mainmenu li>a {
+    color: #576477;
+}
+
+
+/*************
+Hero area CSS
+*************/
+
+.hero-3 {
+    background-color: #0B0037;
+    padding-bottom: 100px;
+    z-index: 1;
+    -webkit-clip-path: polygon(100% 0, 100% 81%, 85% 100%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 100% 81%, 85% 100%, 0 100%, 0 0);
+}
+
+.hero-3:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    background-image: url(../image/elements.png);
+    background-position: center;
+    background-size: cover;
+    pointer-events: none;
+}
+
+.hero-3 h1 {
+    color: #FFFFFF;
+    position: relative;
+    display: inline-block;
+    font-size: 88px;
+    margin-bottom: 10px;
+}
+
+.hero-3 h1 sup {
+    background-color: #C82C29;
+    font-size: 18px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    position: absolute;
+    top: 10px;
+}
+
+.hero-3 h2 {
+    color: #ADB9C7;
+    margin-bottom: 55px;
+    font-weight: 200;
+}
+
+.hero-3 .boxed-btn {
+    border: 1px solid #C0CCDA;
+    background-color: #0B0037;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.hero-3 .boxed-btn:hover {
+    background-color: #C82C29;
+    -webkit-box-shadow: 0 10px 30px -14px #C82C29;
+    box-shadow: 0 10px 30px -14px #C82C29;
+    border-color: #C82C29;
+}
+
+.hero-3-img {
+    position: relative;
+    z-index: 1;
+    text-align: right;
+}
+
+.hero-3-img img {
+    border-radius: 34px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.hero-3-img img.profile-1 {
+    position: absolute;
+    left: -17%;
+    bottom: 10%;
+    pointer-events: none;
+    -webkit-animation: maskimg 10s linear infinite;
+    animation: maskimg 10s linear infinite;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.hero-3-img img.profile-1.profile-2 {
+    right: -13%;
+    left: auto;
+    bottom: 13%;
+    -webkit-animation: none;
+    animation: none;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+
+
+.header-btn .button {
+    padding: 6px 30px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.header-btn .button:after {
+    background-color: white;
+    border-radius: 4px;
+}
+
+.is-sticky .header-btn .button:after {
+    background-color: #001737;
+}
+
+.header-btn .button:hover {
+    color: #001737;
+}
+
+.is-sticky .header-btn .button:hover {
+    color: white;
+}
+
+
+/****************
+Service area CSS
+****************/
+
+.service-area {
+    position: relative;
+    z-index: 1;
+}
+
+.service-area:after {
+    position: absolute;
+    left: calc((-100vw + 65%) / 2);
+    top: 0;
+    width: 40%;
+    height: 30%;
+    content: "";
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    z-index: -1;
+}
+
+.service-area:after,
+.t-c-2 .single-c-item:after {
+    background: #c0ccda;
+    background: -webkit-gradient(linear, left top, right top, color-stop(1%, #c0ccda), to(#ffffff));
+    background: -o-linear-gradient(left, #c0ccda 1%, #ffffff 100%);
+    background: linear-gradient(to right, #c0ccda 1%, #ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0ccda', endColorstr='#ffffff', GradientType=1);
+}
+
+.service-area .title {
+    margin-bottom: 70px;
+}
+
+.single-s-item {
+    text-align: center;
+    -webkit-box-shadow: 0 0 20px #f3efef;
+    box-shadow: 0 0 20px #f3efef;
+    padding: 40px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    margin-top: 0;
+}
+
+.single-s-item:hover {
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    border-bottom: 4px solid #5CBC2B;
+    margin-top: -10px;
+}
+
+.s-icon {
+    margin-bottom: 35px;
+    display: inline-block;
+    position: relative;
+}
+
+.s-icon .icon {
+    width: 80px;
+    height: 96px;
+    line-height: 96px;
+    display: inline-block;
+    background: #5CBC2B;
+    color: white;
+    font-size: 32px;
+    -webkit-box-shadow: 0 23px 30px rgba(92, 188, 43, .5);
+    box-shadow: 0 23px 30px rgba(92, 188, 43, .5);
+    -webkit-clip-path: polygon(100% 0, 100% 75%, 70% 100%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 100% 75%, 70% 100%, 0 100%, 0 0);
+    position: relative;
+    z-index: 1;
+}
+
+.icon-bg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 80%;
+    height: 80%;
+    background: rgba(92, 188, 43, 0.3);
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.s-icon span.bar {
+    width: 65%;
+    height: 2px;
+    display: block;
+    position: absolute;
+    left: 24%;
+    top: 72%;
+    background-color: #ffffff;
+    z-index: 1;
+    opacity: 0.2;
+    -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+    -ms-transform: translate(-50%, -50%) rotate(-45deg);
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.s-icon span.bar:nth-child(1) {
+    top: 30%
+}
+
+.s-icon span.bar:nth-child(3) {
+    top: 70%;
+    left: 73%;
+    width: 55%;
+}
+
+.color-o span.icon-bg {
+    background-color: rgba(243, 133, 80, 0.3);
+}
+
+.color-o .icon {
+    background-color: #F38550;
+}
+
+.color-o:hover {
+    border-color: #F38550;
+}
+
+.color-b span.icon-bg {
+    background-color: rgba(53, 191, 230, 0.3);
+}
+
+.color-b .icon {
+    background-color: #35BFE6;
+}
+
+.color-b:hover {
+    border-color: #35BFE6;
+}
+
+.single-s-item h4 {
+    margin-bottom: 15px;
+}
+
+.border-btn {
+    color: #001737;
+    position: relative;
+    z-index: 1;
+    border-bottom: 3px solid #C0CCDA;
+    margin-top: 25px;
+    display: inline-block;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.border-btn:hover {
+    color: #5CBC2B;
+    border-color: #5CBC2B;
+}
+
+.color-o .border-btn:hover {
+    color: #F38550;
+    border-color: #F38550;
+}
+
+.color-b .border-btn:hover {
+    color: #35BFE6;
+    border-color: #35BFE6;
+}
+
+
+/*****************
+Features area CSS
+*****************/
+
+.features-area-3 {
+    position: relative;
+    z-index: 1;
+}
+
+.features-area-3:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+}
+
+.features-area-3:before {
+    background: #ffffff;
+    background: -o-linear-gradient(45deg, #ffffff 0%, #e5e9f2 100%);
+    background: linear-gradient(45deg, #ffffff 0%, #e5e9f2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e9f2', GradientType=1);
+    -webkit-clip-path: polygon(30% 0, 100% 0, 100% 70%, 70% 100%, 0 100%, 0 30%);
+    clip-path: polygon(30% 0, 100% 0, 100% 70%, 70% 100%, 0 100%, 0 30%);
+}
+
+.f-border {
+    position: absolute;
+    bottom: 0%;
+    left: -27%;
+    z-index: -1;
+}
+
+
+/*********************
+Features top area CSS
+*********************/
+
+.features-left {
+    position: relative;
+    z-index: 1;
+}
+
+.features-left img.focus {
+    position: absolute;
+    left: 35%;
+    bottom: 38%;
+    pointer-events: none;
+    -webkit-animation: maskimg 10s linear infinite;
+    animation: maskimg 10s linear infinite;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.features-left:after {
+    position: absolute;
+    left: 0;
+    bottom: 4%;
+    width: 60%;
+    height: 75%;
+    content: "";
+    background-color: #C82C29;
+    z-index: -1;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 25% 100%, 0 84%, 0 0);
+    clip-path: polygon(100% 0, 100% 100%, 25% 100%, 0 84%, 0 0);
+}
+
+.features-left img {
+    margin-left: 15%;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 90px;
+    border-radius: 34px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.features-left span.f-bar {
+    width: 40%;
+    height: 2px;
+    display: block;
+    position: absolute;
+    left: 14%;
+    top: 74%;
+    background-color: #fff;
+    z-index: 1;
+    opacity: 0.2;
+    -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+    -ms-transform: translate(-50%, -50%) rotate(-45deg);
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.features-left span.f-bar.bar-1 {
+    top: 38%;
+}
+
+.features-left span.f-bar.bar-2 {
+    top: 50%;
+}
+
+.features-left span.f-bar.bar-3 {
+    top: 58%;
+    width: 20%;
+    left: 20%;
+}
+
+.features-left span.f-bar.bar-4 {
+    top: 85%;
+}
+
+.features-left span.f-bar.bar-5 {
+    top: 90%;
+    left: 40%;
+}
+
+.counter-icon {
+    width: 24%;
+    margin-right: 20px;
+}
+
+.counter-text {
+    width: 76%;
+}
+
+.counter-icon .mdi {
+    font-size: 50px;
+    color: #35BFE6;
+}
+
+.counter-icon img {
+    width: 45px;
+}
+
+.counter-text h6 {
+    text-transform: uppercase;
+}
+
+
+/************************
+Features bottom area CSS
+************************/
+
+.features-right:after {
+    left: auto;
+    right: 0;
+    -webkit-clip-path: polygon(100% 0%, 100% 84%, 80% 100%, 0 100%, 0 0);
+    clip-path: polygon(100% 0%, 100% 84%, 80% 100%, 0 100%, 0 0);
+    background-color: #0B0037;
+}
+
+.features-right span.f-bar {
+    left: auto;
+    right: -26%;
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+    -ms-transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.features-right img.focus {
+    left: 10%;
+    -webkit-animation: none;
+    animation: none;
+    bottom: 45%;
+    margin: 0;
+}
+
+.features-left.features-right {
+    text-align: right;
+}
+
+.features-left.features-right img {
+    margin-right: 15%;
+}
+
+.features-right span.f-bar.bar-3 {
+    right: 0%;
+    left: auto;
+}
+
+.features-right span.f-bar.bar-5 {
+    left: auto;
+    right: 0;
+}
+
+
+/********************
+Testimonial area CSS
+********************/
+
+.testimonial-3 .title {
+    margin-bottom: 0;
+}
+
+.t-c-2 .single-c-item:after {
+    position: absolute;
+    left: -40%;
+    bottom: 23%;
+    width: 100%;
+    height: 40%;
+    content: "";
+    z-index: -1;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.t-c-2 .t-image img {
+    border-radius: 0;
+    -webkit-clip-path: polygon(100% 0, 100% 70%, 75% 100%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 100% 70%, 75% 100%, 0 100%, 0 0);
+}
+
+.s-bg {
+    position: relative;
+    z-index: 1;
+    background-color: #0B0037;
+    padding: 50px 0;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 80%, 92% 100%, 20% 100%, 0 100%, 0% 20%);
+    clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 80%, 92% 100%, 20% 100%, 0 100%, 0% 20%);
+}
+
+.s-bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    background-image: url(../image/suc.png);
+    background-position: top center;
+    background-size: 100% 165%;
+}
+
+.s-bg .subscribe-bg-c {
+    background: none;
+    color: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.s-bg .subscribe-bg-c h2 {
+    color: #fff;
+}
+
+
+/*************
+Team area CSS
+*************/
+
+.single-team-item {
+    text-align: center;
+}
+
+.team-img {
+    position: relative;
+    z-index: 1;
+}
+
+.solial-link li a,
+.footer li a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    color: #576477;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    font-size: 20px;
+}
+
+.solial-link li a:hover,
+.footer li a:hover {
+    color: #C82C29;
+}
+
+.solial-link {
+    background-color: white;
+    padding: 10px 15px;
+    -webkit-clip-path: polygon(100% 0, 100% 75%, 90% 100%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 100% 75%, 90% 100%, 0 100%, 0 0);
+    position: absolute;
+    left: 0;
+    bottom: -30%;
+    -webkit-transform: translate(14%, -40%);
+    -ms-transform: translate(14%, -40%);
+    transform: translate(14%, -40%);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.team-img:hover .solial-link {
+    bottom: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.single-team-item h3 {
+    margin-top: 30px;
+}
+
+.single-team-item h3 span {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8392A5;
+    margin-top: 10px;
+}
+
+
+/*******************
+Mask Group area CSS
+*******************/
+
+.mask-title h4 {
+    color: #8392A5;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.mask-title h2 {
+    margin-bottom: 40px;
+}
+
+.mask-title .boxed-btn {
+    text-align: left;
+}
+
+.mask-title h6.version {
+    font-size: 14px;
+    font-weight: 500;
+    color: #576477;
+    margin-top: 30px;
+}
+
+.mask-title h6.version span {
+    color: #C82C29;
+    margin-left: 10px;
+}
+
+.mask-Group-area {
+    position: relative;
+    z-index: 1;
+    background-color: #E5E9F2;
+}
+
+.group-image img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    pointer-events: none;
+    box-shadow: 0 10px 55px rgba(0,0,0,.1);
+    border-radius: 10px;
+}
+
+.group-image img:nth-child(1) {
+    bottom: auto;
+    top: 0;
+    width: 250px;
+    left: 10%;
+    -webkit-animation: maskimg 10s linear infinite;
+    animation: maskimg 10s linear infinite;
+}
+
+.group-image img:nth-child(2) {
+    bottom: auto;
+    top: 10%;
+    left: -5%;
+}
+
+.group-image img:nth-child(3) {
+    left: 3%;
+    -webkit-animation: maskimg 10s linear infinite;
+    animation: maskimg 10s linear infinite;
+}
+
+.group-image img:nth-child(4) {
+    left: auto;
+    right: 12%;
+    width: 208px;
+    bottom: -25%;
+    z-index: 2;
+    border-radius: 30px;
+    border: 10px solid white;
+}
+
+.group-image img:nth-child(5) {
+    left: auto;
+    right: 4%;
+    width: 208px;
+    bottom: -10%;
+    z-index: 1;
+    border-radius: 30px;
+    border: 10px solid white;
+}
+
+.mask-title {
+    position: relative;
+    z-index: 2;
+}
+
+.mask-Group-area:after {
+    position: absolute;
+    left: -30px;
+    bottom: -150px;
+    width: 100%;
+    height: 300px;
+    content: "";
+    z-index: -9;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.mask-Group-area:after {
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#e5e9f2));
+    background: -o-linear-gradient(left, #ffffff 0%, #e5e9f2 100%);
+    background: linear-gradient(to right, #ffffff 0%, #e5e9f2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e9f2', GradientType=1);
+}
+
+
+/***************
+Footer area CSS
+***************/
+
+.footer-area-3 {
+    padding: 80px 0 30px;
+}
+
+.footer p.mt-20 {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.footer h4 {
+    margin-bottom: 30px;
+}
+
+.footer-menu li {
+    display: block;
+}
+
+.footer-menu li a {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer ul {
+    margin-top: 15px;
+}

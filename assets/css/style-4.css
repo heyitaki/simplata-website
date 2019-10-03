@@ -1,0 +1,831 @@
+/*********************
+CSS Index
+* Base CSS
+* Header area CSS
+* Hero area CSS
+* Client logo area CSS
+* Service area CSS
+* Video area CSS
+* Features area CSS
+* Pricing area CSS
+* Testimonial area CSS
+* FAQ area CSS
+* Footer area CSS
+*********************/
+
+
+/********
+Base CSS
+*********/
+
+
+/*** Body ***/
+
+body {
+    font-size: 16px;
+}
+
+
+/***************
+Header area CSS
+***************/
+
+.header-4 .mainmenu li a {
+    color: black;
+}
+
+.header-4 .mainmenu li:hover a {
+    color: #1890ff;
+}
+
+.header-4 .button,
+.hero-4 .button,
+.features-right .button {
+    background-color: #1890ff;
+}
+
+
+/*************
+Hero area CSS
+*************/
+
+.hero-4 {
+    background-color: #fafafa;
+    color: black;
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-4 h1 {
+    font-size: 96px;
+    color: black;
+    font-weight: 600;
+}
+
+.hero-4 h2 {
+    font-size: 29px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.hero-4 p {
+    margin-bottom: 30px;
+}
+
+.hero-4 .button {
+    margin-right: 10px;
+}
+
+.hero-4 .button:after {
+    background-color: #40a9ff;
+}
+
+.hero-4 .button:hover {
+    background-color: #40a9ff;
+}
+
+.hero-4-img {
+    margin-right: calc((-70vw + 100%) / 2);
+}
+
+.hero-4-img img {
+    -webkit-box-shadow: 20px 20px 5px 0px;
+    box-shadow: 20px 20px 5px 0px;
+    color: rgba(0, 0, 0, .2);
+}
+
+
+/*** Animation CSS ***/
+
+.animation-4 span {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    content: "";
+    background: #1890ff;
+    display: block;
+    border-radius: 50%;
+}
+
+.animation-4 span:nth-child(1) {
+    top: 0;
+    bottom: auto;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: a 10s linear infinite;
+    animation: a 10s linear infinite;
+}
+
+@-webkit-keyframes a {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+}
+
+@keyframes a {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 0
+    }
+}
+
+.animation-4 span:nth-child(2) {
+    top: 0;
+    bottom: auto;
+    width: 50px;
+    height: 50px;
+    left: auto;
+    right: 0;
+    -webkit-animation: a 10s linear infinite;
+    animation: a 10s linear infinite;
+}
+
+.animation-4 span:nth-child(3) {
+    top: 0;
+    bottom: auto;
+    width: 50px;
+    height: 50px;
+    left: 20%;
+    -webkit-animation: a 10s linear infinite;
+    animation: a 10s linear infinite;
+}
+
+.animation-4 span:nth-child(4) {
+    bottom: 65%;
+    width: 50px;
+    height: 50px;
+    left: 42%;
+    -webkit-animation: a 10s linear infinite;
+    animation: a 10s linear infinite;
+}
+
+.animation-4 span:nth-child(5) {
+    left: auto;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: a 10s linear infinite;
+    animation: a 10s linear infinite;
+}
+
+.animation-4 span:nth-child(6) {
+    bottom: 15%;
+    width: 50px;
+    height: 50px;
+    left: 49%;
+    -webkit-animation: a 10s linear infinite;
+    animation: a 10s linear infinite;
+}
+
+.animation-4 span:nth-child(7) {
+    left: auto;
+    right: 30%;
+    bottom: auto;
+    top: 10%;
+    -webkit-animation: b 30s linear infinite;
+    animation: b 30s linear infinite;
+}
+
+@-webkit-keyframes b {
+    0% {
+        right: 30%;
+    }
+    40% {
+        right: 50%;
+        top: 20%;
+    }
+    60% {
+        right: 70%;
+        top: 10%;
+    }
+    80% {
+        right: 40%;
+        top: 5%;
+    }
+    100% {
+        right: 30%;
+    }
+}
+
+@keyframes b {
+    0% {
+        right: 30%;
+    }
+    40% {
+        right: 50%;
+        top: 20%;
+    }
+    60% {
+        right: 70%;
+        top: 10%;
+    }
+    80% {
+        right: 40%;
+        top: 5%;
+    }
+    100% {
+        right: 30%;
+    }
+}
+
+.animation-4 span:nth-child(8) {
+    left: auto;
+    right: 22%;
+    bottom: 9%;
+    -webkit-animation: c 30s linear infinite;
+    animation: c 30s linear infinite;
+}
+
+@-webkit-keyframes c {
+    0% {
+        right: 22%;
+        bottom: 9%;
+    }
+    50% {
+        right: 42%;
+        bottom: 0%;
+    }
+    100% {
+        right: 22%;
+        bottom: 9%;
+    }
+}
+
+@keyframes c {
+    0% {
+        right: 22%;
+        bottom: 9%;
+    }
+    50% {
+        right: 42%;
+        bottom: 0%;
+    }
+    100% {
+        right: 22%;
+        bottom: 9%;
+    }
+}
+
+.animation-4 span:nth-child(9) {
+    left: 10%;
+    bottom: 10%;
+    -webkit-animation: d 30s linear infinite;
+    animation: d 30s linear infinite;
+}
+
+@-webkit-keyframes d {
+    0% {
+        left: 10%;
+        bottom: 10%;
+    }
+    40% {
+        left: 40%;
+        bottom: 40%;
+    }
+    50% {
+        left: 60%;
+        bottom: 20%;
+    }
+    100% {
+        left: 10%;
+        bottom: 10%;
+    }
+}
+
+@keyframes d {
+    0% {
+        left: 10%;
+        bottom: 10%;
+    }
+    40% {
+        left: 40%;
+        bottom: 40%;
+    }
+    50% {
+        left: 60%;
+        bottom: 20%;
+    }
+    100% {
+        left: 10%;
+        bottom: 10%;
+    }
+}
+
+.animation-4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+/***************
+Client logo area CSS
+***************/
+
+.c-logo-area {
+    padding-top: 80px;
+}
+
+.c-logo-area h4 {
+    color: #8392A5;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.single-logo-item {
+    display: table;
+    height: 65px;
+    margin: 0 auto;
+}
+
+.single-logo-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+/****************
+Service area CSS
+****************/
+
+.single-s-4-item {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.s-4-icon .icon-4,
+.s-4-icon img {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    line-height: 80px;
+    background-color: #644DFF;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    font-size: 30px;
+    color: white;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.single-s-4-item:hover .icon-4 {
+    background-color: #F38550;
+}
+
+.single-s-4-item h4 {
+    margin-bottom: 25px;
+}
+
+.s-4-icon img {
+    padding: 28px;
+}
+
+.title-4 {
+    margin-bottom: 40px;
+}
+
+.title-4 h2 {
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.s-4-icon .icon-4 span {
+    position: absolute;
+    left: 7%;
+    top: 35%;
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-color: white;
+    border-radius: 50%;
+    z-index: -1;
+    -webkit-animation: a 10s linear infinite;
+    animation: a 10s linear infinite;
+}
+
+.s-4-icon .icon-4,
+.s-4-icon img {
+    position: relative;
+    z-index: 1;
+}
+
+.s-4-icon .icon-4 span:nth-child(2) {
+    width: 15px;
+    height: 15px;
+    left: 40%;
+    top: 5%;
+}
+
+.s-4-icon strong {
+    position: absolute;
+    left: 40%;
+    top: 14%;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 1;
+    -webkit-animation: a 10s linear infinite;
+    animation: a 10s linear infinite;
+}
+
+.s-4-icon strong:nth-child(2) {
+    left: 47%;
+    top: 5%;
+    width: 15px;
+    height: 15px;
+}
+
+
+/**************
+Video area CSS
+**************/
+
+.video-img {
+    position: relative;
+    z-index: 1;
+}
+
+.vd-btn {
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background-color: white;
+    font-size: 35px;
+    border-radius: 50%;
+    color: #4528EB;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.vd-btn:hover {
+    background-color: #4528EB;
+    color: white;
+}
+
+
+/*****************
+Features area CSS
+*****************/
+
+.features-4-img {
+    position: relative;
+    z-index: 1;
+}
+
+.features-4-img img.timeline {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    width: 300px;
+    margin: 0;
+}
+
+.features-4-img img {
+    -webkit-box-shadow: 0 0 30px -5px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 30px -5px rgba(0, 0, 0, .1);
+    margin: 100px 0 70px -50px;
+    width: 550px;
+    pointer-events: none;
+}
+
+.features-4-img:after {
+    position: absolute;
+    left: -10%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #F6F8FA;
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-animation: maskimg 10s linear infinite;
+    animation: maskimg 10s linear infinite;
+}
+
+.f-i-right:after {
+    right: 0%;
+    left: auto;
+}
+
+.f-i-right img {
+    margin-left: 0;
+    max-width: 550px;
+}
+
+.f-i-right img.timeline {
+    right: -10%;
+}
+
+.features-right .button {
+    margin-top: 30px;
+}
+
+.features-4-2 {
+    padding-top: 80px;
+}
+
+
+/****************
+Pricing area CSS
+****************/
+
+.pricing-area {
+    position: relative;
+    z-index: 1;
+}
+
+.pricing-area .title-4,
+.pricing-area .title-4 h2 {
+    color: white;
+}
+
+.single-pricing-item {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.pricing-area {
+    background-color: #4528EB;
+}
+
+.pricing-header h3 {
+    color: #F38550;
+    margin-bottom: 30px;
+}
+
+.pricing-header {
+    padding: 40px 0 30px;
+    background-color: #F6F8FA;
+    border-radius: 10px 10px 0 0;
+}
+
+.price,
+.price h2 {
+    position: relative;
+    z-index: 1;
+}
+
+.price h2 span {
+    font-size: 36px;
+    position: absolute;
+    left: 18%;
+    top: 10%;
+}
+
+.price h2 {
+    font-size: 64px;
+}
+
+.price h2 strong {
+    font-size: 15px;
+    margin-left: 7px;
+}
+
+.price h2 sup {
+    font-size: 32px;
+    position: absolute;
+    top: 20%;
+    right: 36%;
+}
+
+.pricing-content li {
+    display: block;
+    font-weight: 400;
+    margin-bottom: 17px;
+}
+
+.pricing-content {
+    padding: 40px 0;
+}
+
+.pricing-content li strong {
+    color: #001737;
+}
+
+.pricing-content li.f-o {
+    color: #ADB9C7;
+}
+
+.pricing-content li:last-child {
+    margin-bottom: 0;
+}
+
+.pricing-footer {
+    padding: 0 0 40px;
+}
+
+.border-4-btn:hover {
+    background-color: #F38550;
+    color: white;
+    border-color: #F38550;
+}
+
+.border-4-btn {
+    font-size: 14px;
+    color: #F38550;
+    border: 2px solid #F38550;
+    padding: 15px 40px;
+    border-radius: 5px;
+    display: inline-block;
+    text-transform: uppercase;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    position: relative;
+    z-index: 1;
+    font-weight: 500;
+}
+
+a.border-4-btn:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    content: "";
+    background-color: #F38550;
+    z-index: -1;
+    border-radius: 5px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+a.border-4-btn:hover:after {
+    height: 100%;
+    bottom: 0;
+    top: auto;
+}
+
+.active .pricing-header {
+    background-color: #001737;
+}
+
+.active .pricing-header h3,
+.active .pricing-header .price h2 {
+    color: white;
+}
+
+.active .pricing-footer .border-4-btn {
+    color: white;
+    background-color: #F38550;
+}
+
+.active .pricing-footer .mdi {
+    display: block;
+    color: #5CBC2B;
+    font-size: 40px;
+}
+
+.active .pricing-footer p {
+    font-size: 14px;
+}
+
+.pricing-area .animation-4 span:nth-child(4) {
+    left: 20%;
+    bottom: 70%;
+}
+
+.pricing-area .animation-4 span:nth-child(6) {
+    left: 15%;
+    bottom: 5%;
+}
+
+
+/********************
+Testimonial area CSS
+********************/
+
+.t-c-4 .single-c-item {
+    background-color: #F9FAFC;
+}
+
+.t-c-4 h4 {
+    font-weight: 500;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+.quote-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 0;
+    z-index: -1;
+}
+
+.quote-left i {
+    font-size: 170px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e5e5e5));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.t-c-4 .quote-icon i {
+    font-size: 40px;
+    color: #F38550;
+}
+
+.t-c-4 .quote-icon {
+    bottom: 12%;
+}
+
+
+/************
+FAQ area CSS
+************/
+
+.faq-area {
+    position: relative;
+    z-index: 1;
+}
+
+.faq-area:before {
+    position: absolute;
+    left: 10%;
+    top: 0;
+    width: 80%;
+    height: 1px;
+    content: "";
+    background-color: #707070;
+    z-index: -1;
+    opacity: .2;
+}
+
+.faq-icon .mdi {
+    color: #4528EB;
+    font-size: 22px;
+}
+
+.faq-icon {
+    width: 5%;
+    margin-right: 2%;
+}
+
+.single-faq-item {
+    margin-bottom: 30px;
+    -webkit-box-shadow: 10px 10px 40px -8px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 40px -8px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.single-faq-item:last-child {
+    margin-bottom: 0;
+}
+
+.faq-title {
+    margin-bottom: 10px;
+}
+
+.faq-area .title {
+    margin-bottom: 60px;
+}
+
+
+/***************
+Footer area CSS
+***************/
+
+.footer-3 {
+    background-color: #001737;
+}
+
+.footer-3,
+.footer-3 h4,
+.footer-3 li a {
+    color: white;
+}
