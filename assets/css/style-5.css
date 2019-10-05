@@ -24,6 +24,21 @@ body {
     background-color: #E5E9F2
 }
 
+input:focus {
+    -webkit-box-shadow: 0px 0px 5px 0px !important;
+    box-shadow: 0px 0px 5px 0px !important;
+    color: #1890ff !important;
+    -webkit-transition: .3s !important;
+    -o-transition: .3s !important;
+    transition: .3s !important;
+}
+
+input {
+    -webkit-transition: .3s !important;
+    -o-transition: .3s !important;
+    transition: .3s !important;
+}
+
 /***************
 Header area CSS
 ***************/
@@ -459,7 +474,22 @@ Contact area CSS
 }
 
 .contact-form button.button {
-    background-color: #F38550;
+    background-color: #1890ff;
+}
+
+.contact-form button.button:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px;
+    box-shadow: 0px 0px 5px 0px;
+    color: #1890ff;
+    transform: translateY(-1px);
+}
+
+.contact-form .button-text:hover {
+    color: white;
+}
+
+.contact-form .button-text {
+    color: white;
 }
 
 .contact-form textarea:focus {

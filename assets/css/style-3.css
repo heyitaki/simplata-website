@@ -30,14 +30,16 @@ body {
 Header area CSS
 ***************/
 
-.header-btn {
-    text-align: right;
-    margin-top: 4px;
-}
-
 .is-sticky .header-4 .mainmenu li>a {
     color: #576477;
 }
+
+#what-we-do {
+    height: 1px;
+    width: 1px;
+    background-color: transparent;
+}
+
 
 
 /*************
@@ -136,26 +138,12 @@ Hero area CSS
     box-shadow: 0 10px 30px rgba(0,0,0,.1);
 }
 
-
-
-.header-btn .button {
-    padding: 6px 30px;
-    -webkit-transition: .5s;
-    -o-transition: .5s;
-    transition: .5s;
-}
-
-.header-btn .button:after {
-    background-color: white;
-    border-radius: 4px;
-}
-
 .is-sticky .header-btn .button:after {
     background-color: #001737;
 }
 
 .header-btn .button:hover {
-    color: #001737;
+    color: white;
 }
 
 .is-sticky .header-btn .button:hover {
@@ -594,7 +582,7 @@ Team area CSS
 
 .solial-link li a,
 .footer li a {
-    width: 40px;
+    width: fit-content;
     height: 40px;
     line-height: 40px;
     display: inline-block;
@@ -607,7 +595,7 @@ Team area CSS
 
 .solial-link li a:hover,
 .footer li a:hover {
-    color: #C82C29;
+    color: white;
 }
 
 .solial-link {
@@ -771,6 +759,7 @@ Footer area CSS
 .footer p.mt-20 {
     margin-top: 30px;
     font-size: 16px;
+    margin-bottom: 30px;
 }
 
 .footer h4 {
@@ -787,5 +776,5 @@ Footer area CSS
 }
 
 .footer ul {
-    margin-top: 15px;
+    /*margin-top: 15px;*/
 }

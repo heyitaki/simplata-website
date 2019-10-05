@@ -26,6 +26,26 @@ body {
 
 }
 
+.toggle span {
+    background-color: #1890ff !important;
+}
+
+.toggle span:after {
+    background-color: #1890ff !important;
+}
+
+.toggle span:before {
+    background-color: #1890ff !important;
+}
+
+.slicknav_menu .slicknav_nav ul li a:hover {
+    color: #1890ff;
+}
+
+.slicknav_menu .slicknav_nav {
+    padding-bottom: 0 !important;
+}
+
 /***************
 Header area CSS
 ***************/
@@ -50,10 +70,34 @@ Header area CSS
 }
 
 .logo-1, .logo-2 {
-    width: 210px;
+    width: 13em;
+    max-width: 190px;
 }
 
+.header-btn .button {
+    border: 0;
+}
 
+.f-menu-item {
+    font-size: 15px;
+}
+
+.f-menu-bottom {
+    font-size: 15px;
+    color: #576477;
+    display: inline-block;
+}
+
+.special-link {
+    margin-left: 20px;
+}
+
+.special-link:hover {
+    color: white;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
 /*************
 Hero area CSS
 *************/

@@ -13,16 +13,16 @@ $("#contactForm").on("submit", function (event) {
 
 function submitForm(){
     // Initiate Variables With Form Content
-    var name = $("#name").val();
+    var first_name = $("#first-name").val();
+    var last_name = $("#last-name").val();
     var email = $("#email").val();
-    var msg_subject = $("#msg_subject").val();
-    var message = $("#message").val();
+    var company_name = $("#company-name").val();
 
 
     $.ajax({
         type: "POST",
         url: "process.php",
-        data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&message=" + message,
+        data: "name=" + first_name + " " + last_name + "&email=" + email + "&company=" + company_name,
         success : function(text){
             if (text == "success"){
                 formSuccess();

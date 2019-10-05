@@ -80,8 +80,8 @@
 			var typed = new Typed('.typing', {
 				strings: ["Work Speed"],
 				loop: true,
-				typeSpeed: 100,
-				backSpeed: 80,
+				typeSpeed: 50,
+				backSpeed: 40,
 			});
 		}
 

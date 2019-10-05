@@ -21,6 +21,10 @@
     .toggle {
         display: inline-block !important;
     }
+
+    .header-btn {
+        display: none !important;
+    }
 }
 
 .slicknav_menu {
@@ -255,13 +259,13 @@
     transition: .3s;
 }
 .slicknav_menu .slicknav_nav ul li a:hover {
-    color: #C82C29;
+    color: #1890ff;
 }
 .slicknav_menu .slicknav_nav a.slicknav_item.slicknav_row > a {
     padding: 0;
 }
 .slicknav_menu .slicknav_nav ul li:hover a.slicknav_item.slicknav_row a {
-    color: #C82C29;
+    color: #1890ff;
 }
 .slicknav_menu li {
     border-bottom: 2px solid #f1f1f1;

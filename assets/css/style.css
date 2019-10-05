@@ -251,7 +251,7 @@ Header area CSS
 }
 
 .mainmenu li a.active {
-    color: #C82C29 !important;
+    color: #1890ff !important;
 }
 
 .mainmenu li:hover a {
@@ -297,7 +297,7 @@ Header area CSS
 }
 
 .mainmenu li li:hover>a {
-    color: #C82C29 !important;
+    color: #1890ff !important;
 }
 
 .is-sticky .mainmenu li a {
@@ -315,7 +315,7 @@ Header area CSS
     width: 0;
     height: 3px;
     content: "";
-    background-color: #C82C29;
+    background-color: #1890ff;
     z-index: -1;
     -webkit-transition: .3s;
     -o-transition: .3s;
@@ -394,10 +394,19 @@ Hero area CSS
     transition: .3s;
 }
 
-.button:hover {
-    -webkit-transition: .3s;
-    -o-transition: .3s;
-    transition: .3s;
+.header-btn .button:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px;
+    box-shadow: 0px 0px 5px 0px;
+    color: #1890ff !important;
+    transform: translateY(-1px);
+}
+
+.header-btn .button-text:hover {
+    color: white;
+}
+
+.header-btn .button-text {
+    color: white;
 }
 
 /*.button:after {
@@ -984,6 +993,7 @@ Testimonial area CSS
 .t-title h6,
 .t-title h2 {
     color: white;
+    text-align: left;
 }
 
 .t-title h6 {
@@ -1236,7 +1246,7 @@ a.footer-logo {
 }
 
 .copyright-section li a:hover {
-    color: #C82C29;
+    color: white;
 }
 
 .sponsor-area{
@@ -1286,5 +1296,5 @@ Scroll to top CSS
 }
 
 #topcontrol:hover {
-    background-color: #35BFE6;
+    /*background-color: #35BFE6;*/
 }

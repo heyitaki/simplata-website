@@ -74,31 +74,22 @@
 						<div class="mainmenu">
 							<nav>
 								<ul>
-									<li><a href="index.html">Home</a>
+									<li><a class="nav-link" href="#who-we-are">Who we are</a></li>
+									<li><a class="nav-link" href="#what-we-do">What we do</a></li>
+									<li><a class="nav-link" href="#customers">Customers</a>
 										<ul>
-											<li><a href="index.html">Home 1</a></li>
-											<li><a href="home-3.html">Home 2</a></li>
-											<li><a href="home-4.html" class="active">Home 3</a></li>
-											<li><a href="home-5.html">Home 4</a></li>
-											<li><a href="home-6.html">Home 5</a></li>
+											<li><a href="./financial-institutions.html">Financial Institutions</a></li>
+											<li><a href="./cybersecurity.html">Cybersecurity</a></li>
+											<li><a href="./osint.html">OSINT and Government Agencies</a></li>
 										</ul>
 									</li>
-									<li><a class="nav-link" href="#service">Service</a></li>
-									<li><a class="nav-link" href="#features">Features</a></li>
-									<li><a href="#">Blog</a>
-										<ul>
-											<li><a href="blog.html">Blog</a></li>
-											<li><a href="single-blog.html">Single Blog</a></li>
-										</ul>
-									</li>
-									<li><a class="nav-link" href="#testimonial">Testimonial</a></li>
 								</ul>
 							</nav>
 						</div>
 					</div>
 					<div class="col-lg-2">
 						<div class="header-btn">
-							<a href="" class="button">Sign in</a>
+							<a href="#contact" class="button"><p class="button-text">Contact</p></a>
 						</div>
 					</div>
 				</div>
@@ -114,7 +105,7 @@
 				<div class="wow fadeInLeft" data-wow-delay="0.2s">
 					<h1>Understand the connections</h1>
 					<h1>in your data</h1>
-					<h3>Investigative software that helps you understand who’s who in your dataset.</h3>
+					<h3 id="who-we-are">Investigative software that helps you understand who’s who in your dataset.</h3>
 				</div>
 				<!-- <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.4s">
 					<div class="hero-4-img">
@@ -162,6 +153,7 @@
 				<div class="understand-4-img left-shift">
 					<img src="assets/image/graph-preview.png" class="shadow-right" alt="">
 				</div>
+				<div id="what-we-do"></div>
 			</div>
 			<div class="col-6 ml-auto wow fadeInRight text-center margin-top" data-wow-delay="0.4s">
 				<div class="understand-4-img right-shift">
@@ -170,7 +162,7 @@
 			</div>
 		</div>
 
-		<div class="container margin-top">
+		<div class="container margin-top" id="customers">
 			<div class="row aic">
 				<div class="col-md-4 wow fadeInLeft" data-wow-delay="0.2s">
 					<div class="title">
@@ -190,7 +182,7 @@
 	<!-- End Understand area -->
 
 	<!-- Testimonial area -->
-	<div class="testimonial-area transitionable" id="testimonial">
+	<div class="testimonial-area transitionable">
 		<div class="container special-margin-top">
 			<div class="row">
 				<div class="wow fadeInUp flex-center" data-wow-delay="0.2s">
@@ -262,7 +254,7 @@
 			<div class="row">
 				<div class="wow fadeInUp flex-center" data-wow-delay="0.2s">
 					<div class="t-title">
-						<h2>OSINT and Government Agencies<span class="servicedrop-3 mdi mdi-chevron-right right-icon"></span></h2>
+						<h2 id="contact">OSINT and Government Agencies<span class="servicedrop-3 mdi mdi-chevron-right right-icon"></span></h2>
 						<!-- <span class="nav-underline"></span> -->
 					</div>
 				</div>
@@ -292,7 +284,7 @@
 	<!-- End Testimonial area -->
 
 	<!-- Contact area -->
-	<div class="contact-area pd-80 o-hi" id="contact">
+	<div class="contact-area pd-80 o-hi">
 		<div class="container">
 			<div class="row aic">
 				<div class="col-lg-6">
@@ -300,26 +292,32 @@
 						<div class="title wow fadeInUp" data-wow-delay="0.2s">
 							<h2>Ready to learn more?</h2>
 						</div>
-						<form class="wow fadeInUp" data-wow-delay="0.4s" action="#" method="POST">
+						<form class="wow fadeInUp" data-wow-delay="0.4s" action="https://formspree.io/xkdgpoem" method="POST" id="contact-form">
 							<div class="row">
 								<div class="col-lg-6 col-md-6">
 									<div class="form-group">
-										<label for="name">Name</label>
-										<input id="name" type="text" class="form-control" placeholder="Name">
+										<label for="first-name">First Name</label>
+										<input name="first-name" type="text" class="form-control" placeholder="First Name">
 									</div>
 								</div>
 								<div class="col-lg-6 col-md-6">
 									<div class="form-group">
+										<label for="last-name">Last Name</label>
+										<input type="text" class="form-control" name="last-name" placeholder="Last Name">
+									</div>
+								</div>
+								<div class="col-lg-12">
+									<div class="form-group">
 										<label for="email">Email</label>
-										<input type="email" class="form-control" id="email" placeholder="Email">
+										<input type="email" class="form-control" name="email" placeholder="Email">
 									</div>
 								</div>
 								<div class="col-lg-12">
 									<div class="form-group">
 										<label for="company-name">Company</label>
-										<input type="text" class="form-control" id="company-name" placeholder="Company">
+										<input type="text" class="form-control" name="company-name" placeholder="Company">
 									</div>
-									<button type="submit" class="button"><span class="mdi mdi-send"></span></button>
+									<button type="submit" class="button"><span class="mdi mdi-send button-text"></span></button>
 								</div>
 							</div>
 						</form>
@@ -339,41 +337,25 @@
     					<a href="index.html" class="footer-logo">
 							<img src="assets/image/favicon-v2-inverted-square.png" alt="">
 						</a>
-						<p class="mt-20">Understand the connections</p>
-						<p>in your data.</p>
+						<p class="mt-20">Understand the connections in your data.</p>
     				</div>
     				<div class="col-lg-7">
     					<div class="row">
     						<div class="col-lg-4 col-md-4">
 	    						<div class="footer-menu">
-	    							<h4>Quick Link</h4>
 	    							<ul>
-	    								<li><a href="">Home</a></li>
-	    								<li><a href="">About</a></li>
-	    								<li><a href="">Testimonial</a></li>
-	    								<li><a href="">Contact</a></li>
+	    								<li><a href="#who-we-are">Who we are</a></li>
+	    								<li><a href="#what-we-do">What we do</a></li>
+	    								<li><a href="#customers">Customers</a></li>
+	    								<li><a href="#contact">Contact</a></li>
 	    							</ul>
 	    						</div>
     						</div>
     						<div class="col-lg-4 col-md-4">
-	    						<div class="footer-menu">
-	    							<h4>Product</h4>
-	    							<ul>
-	    								<li><a href="">SaasZed</a></li>
-	    								<li><a href="">PrimeVideo</a></li>
-	    								<li><a href="">Testimonial</a></li>
-	    								<li><a href="">YouthMax</a></li>
-	    							</ul>
-	    						</div>
-    						</div>
-    						<div class="col-lg-4 col-md-4">
-    							<h4>Contact</h4>
-    							<p>infomusic@saastec.com</p>
+    							<p class="f-menu-item">hello@simplata.io</p>
     							<ul>
-    								<li><a href="" data-toggle="tooltip" title="" data-placement="left" data-original-title="Facebook"><span class="mdi mdi-facebook"></span></a></li>
-    								<li><a href="" data-toggle="tooltip" title="" data-placement="top" data-original-title="Twitter"><span class="mdi mdi-twitter"></span></a></li>
-    								<li><a href="" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="Camera"><span class="mdi mdi-camera"></span></a></li>
-    								<li><a href="" data-toggle="tooltip" title="" data-placement="right" data-original-title="Google"><span class="mdi mdi-google"></span></a></li>
+    								<li><a href="https://github.com/Simplata/" data-toggle="tooltip" title="" data-placement="left" data-original-title="Github"><span class="mdi mdi-github-circle"></span></a></li>
+    								<li><a style="margin-left: 10px;" href="https://www.linkedin.com/company/simplata" data-toggle="tooltip" title="" data-placement="top" data-original-title="Linkedin"><span class="mdi mdi-linkedin"></span></a></li>
     							</ul>
     						</div>
     					</div>
@@ -384,16 +366,8 @@
     	<div class="copyright">
     		<div class="container">
     			<div class="row">
-    				<div class="col-lg-6 col-md-6">
-    					<p>All Right Reserved by Cre8ive Copyright ©2019</p>
-    				</div>
-    				<div class="col-lg-6 col-md-6">
-	    				<div class="copyright-section">
-	    					<ul>
-	    						<li><a href="">Terms of Use</a></li>
-	    					</ul>
-	    				</div>
-    				</div>
+					<p class="f-menu-bottom">© 2019 Simplata, Inc.</p>
+					<a class="f-menu-bottom special-link" href="./terms-of-use">Terms of Use</a>
     			</div>
     		</div>
     	</div>
@@ -409,7 +383,6 @@
 	<script src="assets/js/waypoints.min.js"></script>
 	<script src="assets/js/jquery.sticky.js"></script>
 	<script src="assets/js/scrolltotop.js"></script>
-	<script src="assets/js/contact-form-script.js"></script>
 	<script src="assets/js/jquery.ajaxchimp.js"></script>
 	<script src="assets/js/wow.min.js"></script>
 	<script src="assets/js/lity.min.js"></script>
