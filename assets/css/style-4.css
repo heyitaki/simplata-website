@@ -23,8 +23,8 @@ Base CSS
 
 body {
     font-size: 16px;
-}
 
+}
 
 /***************
 Header area CSS
@@ -44,6 +44,15 @@ Header area CSS
     background-color: #1890ff;
 }
 
+.menu-container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.logo-1, .logo-2 {
+    width: 210px;
+}
+
 
 /*************
 Hero area CSS
@@ -55,12 +64,24 @@ Hero area CSS
     padding-bottom: 100px;
     position: relative;
     z-index: 1;
+    height: 90vh;
+}
+
+.container-special {
+    max-width: 100% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
 }
 
 .hero-4 h1 {
-    font-size: 96px;
+    font-size: 5vw;
     color: black;
-    font-weight: 600;
+    font-weight: 400;
+    background-color: white;
+    width: fit-content;
+    padding: 16px 26px;
+    margin-bottom: 0;
+    text-align: left;
 }
 
 .hero-4 h2 {
@@ -85,16 +106,13 @@ Hero area CSS
     background-color: #40a9ff;
 }
 
-.hero-4-img {
-    margin-right: calc((-70vw + 100%) / 2);
+.hero-4 h3 {
+    background-color: white;
+    width: fit-content;
+    padding: 16px 26px;
+    margin-top: 30px;
+    text-align: left;
 }
-
-.hero-4-img img {
-    -webkit-box-shadow: 20px 20px 5px 0px;
-    box-shadow: 20px 20px 5px 0px;
-    color: rgba(0, 0, 0, .2);
-}
-
 
 /*** Animation CSS ***/
 
@@ -364,6 +382,121 @@ Client logo area CSS
     vertical-align: middle;
 }
 
+/****************
+Understand area CSS
+****************/
+
+.margin-top {
+    margin-top: 180px;
+}
+
+.slight-margin-left {
+    margin-left: 30px;
+}
+
+.slight-margin-right {
+    margin-right: 30px;
+}
+
+.shadow-left {
+    -webkit-box-shadow: -10px 10px 5px 0px;
+    box-shadow: -10px 10px 5px 0px;
+    color: rgba(0, 0, 0, .2);
+}
+
+.shadow-right {
+    -webkit-box-shadow: 10px 10px 5px 0px;
+    box-shadow: 10px 10px 5px 0px;
+    color: rgba(0, 0, 0, .2);
+}
+
+.left-shift {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.right-shift {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/****************
+Testimonial area CSS
+****************/
+
+.use-case-link {
+    color: white;
+    width: fit-content;
+}
+
+.use-case-link:hover {
+    color: white;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.use-case-link:hover .button {
+    -webkit-box-shadow: 0px 0px 5px 0px;
+    box-shadow: 0px 0px 5px 0px;
+    color: rgba(255, 255, 255, 1);
+    transform: translateY(-1px);
+}
+
+/*.nav-underline {
+    background-color: white;
+    position: absolute;
+    width: 358px;
+    height: 3px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}*/
+
+.right-icon {
+    opacity: 1;
+    font-size: 34px;
+    margin-left: 10px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.button-buffer {
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button-use-case {
+    height: 40px;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+/*.use-case-link:hover .right-icon {
+    opacity: 1;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}*/
+
+.transitionable {
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.special-margin-top {
+    margin-top: 50px;
+}
+
+.special-margin-bottom {
+    margin-bottom: 30px;
+}
 
 /****************
 Service area CSS
@@ -553,7 +686,7 @@ Features area CSS
 }
 
 .features-4-2 {
-    padding-top: 80px;
+    /*padding-top: 80px;*/
 }
 
 
@@ -701,7 +834,7 @@ a.border-4-btn:hover:after {
 
 .active .pricing-footer .border-4-btn {
     color: white;
-    background-color: #F38550;
+    background-color: #001529;
 }
 
 .active .pricing-footer .mdi {
@@ -821,11 +954,15 @@ Footer area CSS
 ***************/
 
 .footer-3 {
-    background-color: #001737;
+    background-color: #001529;
 }
 
 .footer-3,
 .footer-3 h4,
 .footer-3 li a {
     color: white;
+}
+
+.footer-logo {
+    width: 60px;
 }

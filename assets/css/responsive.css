@@ -1131,6 +1131,15 @@
     /*** Home Page 4 ***/
     .hero-4 h1 {
         font-size: 36px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 0px !important;
+        padding: 0;
+        background-color: transparent;
+    }
+
+    .hero-4 h3 {
+        background-color: transparent;
     }
 
     .hero-4 h1,
