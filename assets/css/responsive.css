@@ -1,14 +1,10 @@
 @media (orientation: portrait) {
-    .hero-4 {
-        height: 50vh;
-    }
-
     .testimonial-area {
         padding: 5px !important;
     }
 }
 
-/* Medium Layout: 1280px. 
+/* Medium Layout: 1280px. */
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .hero-area h1 {
@@ -273,6 +269,10 @@
         text-align: center;
     }
 
+    .hero-area h3 {
+        max-width: 700px;
+    }
+
     .single-features-item {
         width: 48%;
         float: left;
@@ -444,7 +444,7 @@
 
     .footer .col-lg-5,
     .footer .col-lg-4 {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
     .footer h4 {
@@ -526,7 +526,7 @@
     }
 
     .contact-area {
-        padding-top: 0;
+        /*padding-top: 0;*/
     }
 
     .t-img,
@@ -846,6 +846,15 @@
 
 @media only screen and (max-width: 767px) {
 
+    .hero-4 {
+        height: 50vh;
+    }
+
+    .special-image {
+        max-width: none;
+        flex: none;
+    }
+
     /*** Home Page 1 ***/
     h1 {
         font-size: 36px;
@@ -935,6 +944,14 @@
     .features-area,
     .testimonial-area {
         padding: 50px 0;
+    }
+
+    .pd-0 {
+        padding-bottom: 0;
+    }
+
+    .mt-20 {
+        margin-bottom: 0 !important;
     }
 
     .pd-100 {
@@ -1164,7 +1181,7 @@
     .animation-4,
     .f-i-right img.timeline,
     .features-4-img:after {
-        display: none;
+        /*display: none;*/
     }
 
     .hero-4 .button {
@@ -1936,6 +1953,10 @@
         height: 400px;
         right: 20px;
         top: 22%;
+    }
+
+    .dissapear {
+        display: none;
     }
 
     .single-features-item.dfx.aic {

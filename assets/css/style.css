@@ -29,6 +29,10 @@ Base CSS
     margin: 0;
 }
 
+.container {
+    width: inherit;
+}
+
 
 /*** Body CSS ***/
 
@@ -43,6 +47,22 @@ p {
     margin-bottom: 0;
 }
 
+.justify-content-around-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.no-padding-left {
+    padding-left: 0;
+}
+
+.no-padding-right {
+    padding-right: 0;
+}
 
 /*** Focus CSS ***/
 
