@@ -50,6 +50,22 @@ body {
     color: white;
 }
 
+@media screen and (min-width: 1400px) {
+  .hero-4 h1 {
+     font-size: 84px !important;
+  }
+}
+
+.link-special {
+    color: white;
+    text-decoration: underline;
+}
+
+.link-special:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 /***************
 Header area CSS
 ***************/
