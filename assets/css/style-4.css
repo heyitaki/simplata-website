@@ -46,6 +46,10 @@ body {
     padding-bottom: 0 !important;
 }
 
+.s-u-text-header {
+    color: white;
+}
+
 /***************
 Header area CSS
 ***************/
@@ -98,6 +102,11 @@ Header area CSS
     -o-transition: .3s;
     transition: .3s;
 }
+
+.container-page-special {
+    background-color: white !important
+}
+
 /*************
 Hero area CSS
 *************/
@@ -111,10 +120,12 @@ Hero area CSS
     height: 90vh;
 }
 
-.container-special {
-    max-width: 100% !important;
-    margin-left: 10% !important;
-    margin-right: 10% !important;
+.hero-4-img {
+    margin-right: calc((-70vw + 100%) / 2);
+}
+
+.hero-img-special {
+    height: auto;
 }
 
 .hero-4 h1 {
@@ -426,6 +437,24 @@ Client logo area CSS
     vertical-align: middle;
 }
 
+.right-align-special {
+    padding-left: 25% !important;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: right;
+}
+
+.left-align-special {
+    padding-right: 25% !important;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+
 /****************
 Understand area CSS
 ****************/
@@ -433,6 +462,11 @@ Understand area CSS
 .margin-top {
     margin-top: 180px;
 }
+
+.slight-margin-top {
+    margin-top: 30px;
+}
+
 
 .slight-margin-left {
     margin-left: 30px;
@@ -527,6 +561,15 @@ Testimonial area CSS
     -o-transition: .3s;
     transition: .3s;
 }*/
+
+.text-special-center {
+    text-align: center !important;
+    width: 60vw;
+    max-width: 470px;
+    margin-top: 10px;
+    line-height: 1.2;
+    color: white;
+}
 
 .transitionable {
     -webkit-transition: all 0.3s ease-in-out;

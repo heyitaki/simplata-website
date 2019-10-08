@@ -197,17 +197,34 @@ Understand area CSS
     margin-top: 40px;
 }
 
-.s-u-text {
+.s-u-text-left {
     padding: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     transition: .3s;
-    border-left: 3px solid transparent;
+    border-left: 1px solid white;
 }
 
-.s-u-text:hover,
-.s-u-text.active {
-    box-shadow: 10px 10px 40px -6px rgba(0, 0, 0, 0.1);
-    border-color: #F38550;
+.s-u-text-right {
+    padding: 20px;
+    margin-bottom: 40px;
+    transition: .3s;
+    border-right: 1px solid white;
+}
+
+.s-u-text-right:hover,
+.s-u-text-right.active {
+/*    box-shadow: 10px 10px 40px -6px rgba(0, 0, 0, 0.4);
+*/   border-color: #2d9dca;
+    border-width: 3px;
+    /*padding-right: 25px;*/
+}
+
+.s-u-text-left:hover,
+.s-u-text-left.active {
+    /*box-shadow: 10px 10px 40px -6px rgba(0, 0, 0, 0.4);*/
+    border-color: #2d9dca;
+        border-width: 3px;
+    /*padding-left: 25px;*/
 }
 
 .understand-area .title,
