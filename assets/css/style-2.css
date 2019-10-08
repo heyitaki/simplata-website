@@ -1,0 +1,124 @@
+/******************
+CSS Index
+* Header area CSS
+* Hero area CSS
+******************/
+
+
+/***************
+Header area CSS
+***************/
+
+.header-2 .mainmenu li a {
+    color: #C0CCDA;
+}
+
+.header-2 .mainmenu li:hover>a {
+    color: white;
+}
+
+.is-sticky .header-2 .mainmenu li a {
+    color: #576477;
+}
+
+.is-sticky .header-2 .mainmenu li:hover>a {
+    color: #C82C29;
+}
+
+.is-sticky .logo-1,
+.logo-2 {
+    display: none;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.is-sticky .logo-2 {
+    display: block;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+
+/*************
+Hero area CSS
+*************/
+
+.hero-2 {
+    background-color: #362785;
+}
+
+.hero-2 .mdi {
+    background-color: #F9FAFC;
+    color: #001737;
+}
+
+.hero-2 h3 {
+    color: #ADB9C7;
+}
+
+.hero-2 h1 {
+    color: #F9FAFC;
+}
+
+.hero-2 .boxed-btn {
+    width: 35%;
+    border: 1px solid #C0CCDA;
+    background-color: #362785;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.hero-2 .boxed-btn:hover {
+    background-color: #C82C29;
+    -webkit-box-shadow: 0 10px 30px -14px #C82C29;
+    box-shadow: 0 10px 30px -14px #C82C29;
+    border-color: #C82C29;
+}
+
+.hero-2 .hero-img:after {
+    background: rgba(73, 52, 182, .6);
+    border-radius: 50%;
+    -webkit-animation: animatetwoimg 3s linear infinite;
+    animation: animatetwoimg 3s linear infinite;
+}
+
+@-webkit-keyframes animatetwoimg {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, .3), 0 0 0 0 rgba(73, 52, 182, .6);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, .3), 0 0 0 0 rgba(73, 52, 182, .6)
+    }
+    40% {
+        -webkit-box-shadow: 0 0 0 50px rgba(255, 109, 74, 0), 0 0 0 0 rgba(73, 52, 182, .2);
+        box-shadow: 0 0 0 50px rgba(255, 109, 74, 0), 0 0 0 0 rgba(73, 52, 182, .2)
+    }
+    80% {
+        -webkit-box-shadow: 0 0 0 50px rgba(255, 109, 74, 0), 0 0 0 30px rgba(255, 109, 74, 0);
+        box-shadow: 0 0 0 50px rgba(255, 109, 74, 0), 0 0 0 30px rgba(255, 109, 74, 0)
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 109, 74, 0), 0 0 0 30px rgba(255, 109, 74, 0);
+        box-shadow: 0 0 0 0 rgba(255, 109, 74, 0), 0 0 0 30px rgba(255, 109, 74, 0)
+    }
+}
+
+@keyframes animatetwoimg {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, .3), 0 0 0 0 rgba(73, 52, 182, .6);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, .3), 0 0 0 0 rgba(73, 52, 182, .6)
+    }
+    40% {
+        -webkit-box-shadow: 0 0 0 50px rgba(255, 109, 74, 0), 0 0 0 0 rgba(73, 52, 182, .2);
+        box-shadow: 0 0 0 50px rgba(255, 109, 74, 0), 0 0 0 0 rgba(73, 52, 182, .2)
+    }
+    80% {
+        -webkit-box-shadow: 0 0 0 50px rgba(255, 109, 74, 0), 0 0 0 30px rgba(255, 109, 74, 0);
+        box-shadow: 0 0 0 50px rgba(255, 109, 74, 0), 0 0 0 30px rgba(255, 109, 74, 0)
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 109, 74, 0), 0 0 0 30px rgba(255, 109, 74, 0);
+        box-shadow: 0 0 0 0 rgba(255, 109, 74, 0), 0 0 0 30px rgba(255, 109, 74, 0)
+    }
+}

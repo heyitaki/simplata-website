@@ -1,0 +1,624 @@
+/*************************
+CSS Index
+* Header area CSS
+* Hero area CSS
+* Increase area CSS
+* Subscribe area CSS
+* Experience area CSS
+* Tab area CSS
+* Testimonial area CSS
+* Case Study area CSS
+* Footer area CSS
+*************************/
+
+body {
+    counter-reset: section;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+
+/***************
+Header area CSS
+***************/
+
+.hr-9-row-bg {
+    background-color: white;
+    border-radius: 50px;
+    padding: 0 20px;
+}
+
+.header9-c-text h6 {
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.header9-c-text h6 span {
+    font-weight: 300;
+    display: block;
+    font-size: 13px;
+}
+
+.header9-c-text {
+    text-align: left;
+    width: 80%;
+}
+
+.header9-c-icon {
+    width: 20%;
+    margin-right: 10px;
+}
+
+.header-9 .header-logo {
+    margin-top: 18px;
+    display: inline-block;
+}
+
+.header-9 .mainmenu ul {
+    margin-top: 13px;
+}
+
+.is-sticky .header-9 {
+    padding-top: 0;
+}
+
+.header9-c-icon .mdi {
+    font-size: 36px;
+    color: #001737;
+}
+
+.header9-contact {
+    margin-top: 8px;
+}
+
+.header-9 .mainmenu li ul {
+    top: 50px;
+}
+
+.header-9 .mainmenu li a:after {
+    z-index: 1;
+}
+
+
+/*************
+Hero area CSS
+*************/
+
+.hero-9 {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    padding-top: 220px;
+}
+
+.hero-9:after {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    content: '';
+    background-image: url(../image/bg-shape-9.png);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    margin-top: -60px;
+}
+
+.hero-9 h3 {
+    font-size: 24px;
+    color: #576477;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.hero-9 .button {
+    background-color: #1657E2;
+    text-transform: capitalize;
+    margin: 0 6px;
+    -webkit-box-shadow: 0 15px 40px rgba(22, 87, 226, .3);
+    box-shadow: 0 15px 40px rgba(22, 87, 226, .3);
+}
+
+.hero-9 .hero-b-9-right {
+    background-color: white;
+    color: #001737;
+    -webkit-box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.hero-9 .hero-b-9-right:hover {
+    color: white;
+}
+
+.hero-9-img {
+    margin-top: -60px;
+}
+
+
+/*****************
+Increase area CSS
+*****************/
+
+.increase-area .title {
+    margin-bottom: 50px;
+}
+
+.increase-area .title h2 span {
+    font-weight: 300;
+    color: #001737;
+}
+
+.single-increase {
+    -webkit-box-shadow: 0 0 40px -10px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, .1);
+    border-radius: 5px;
+}
+
+.single-increase img {
+    border-radius: 0 0 5px 5px;
+}
+
+.increase-text {
+    padding: 30px;
+}
+
+
+/******************
+Subscribe area CSS
+******************/
+
+.all-section9 {
+    position: relative;
+    z-index: 1;
+    padding: 120px 0 80px;
+}
+
+.all-section9:after {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    content: '';
+    background-image: url(../image/all-s9-bg.png);
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.subscribe9-bg {
+    padding: 80px 0;
+    background-color: white;
+    -webkit-box-shadow: 0 0 40px -10px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, .1);
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.subscribe9-bg:after {
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    content: '';
+    background-image: url(../image/subscribe9-bg.png);
+    width: 90%;
+    height: 60%;
+    z-index: -1;
+    background-size: 100% 100%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.subscribe9-bg h4 {
+    color: #8392A5;
+    font-weight: 400;
+}
+
+.form9 form {
+    background-color: #F9FAFC;
+    border: 1px solid #E5E9F2;
+    border-radius: 50px;
+}
+
+.form9 form input {
+    width: 38%;
+    background: none;
+    border: none;
+    padding: 10px 0 10px 20px;
+}
+
+.form9 form input[type="url"] {
+    border-right: 1px solid rgba(112, 112, 112, 0.2);
+}
+
+.form9 form button {
+    margin-right: -30px;
+    border-radius: 0 50px 50px 0;
+    overflow: hidden;
+    background-color: #1657E2;
+    text-transform: capitalize;
+}
+
+.form9 form button:after {
+    border-radius: 0 50px 50px 0;
+}
+
+
+/*******************
+Experience area CSS
+*******************/
+
+.experience-progressbar h5 {
+    margin-bottom: 25px;
+}
+
+.barfiller {
+    margin-bottom: 40px;
+}
+
+.experience-img {
+    margin-left: -50px;
+}
+
+
+/************
+Tab area CSS
+************/
+
+.tab-area9 {
+    position: relative;
+    z-index: 2;
+    margin-top: 40px;
+}
+
+.tab9-number {
+    width: 5%;
+    margin-right: 30px;
+}
+
+.tab9-text {
+    width: 95%;
+}
+
+.tab9-number strong {
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    border: 2px solid #1657E2;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    color: #1657E2;
+}
+
+.tab9-title h2 {
+    font-size: 31px;
+    font-weight: 600;
+}
+
+.tab9-left {
+    margin-top: 40px;
+}
+
+.tab9-content {
+    margin-bottom: 30px;
+}
+
+.tab9-text h3 {
+    font-weight: 600;
+}
+
+.tab9-ct {
+    margin-bottom: 0;
+}
+
+.tab9-ct {
+    padding: 50px 40px 20px;
+    -webkit-box-shadow: 0 5px 30px 0px rgba(0, 0, 0, .1);
+    box-shadow: 0 5px 30px 0px rgba(0, 0, 0, .1);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.tab-area9 ul li a.nav-link.active,
+.tab-area9 ul li a.nav-link:hover,
+.tab-area9 .nav-tabs .nav-link {
+    border: none;
+    border-radius: 0;
+}
+
+.tab-area9 ul li a.nav-link {
+    font-size: 50px;
+}
+
+.tab-area9 ul li {
+    width: 25%;
+}
+
+.tab-area9 ul li a {
+    position: relative;
+    z-index: 1;
+    color: #001737;
+}
+
+.tab-area9 ul li a:after {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    content: "";
+    -webkit-transform: translate(-50%, 100%);
+    -ms-transform: translate(-50%, 100%);
+    transform: translate(-50%, 100%);
+    z-index: -1;
+}
+
+.tab-area9 ul li a.nav-link.active {
+    background-color: #F9FAFC;
+    border-bottom: 4px solid #1657E2;
+}
+
+.tab-area9 ul li a.active:after {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #1657E2;
+}
+
+.tab-area9 ul li a h5 {
+    font-weight: 500;
+}
+
+.tab-area9 ul li a i {
+    font-weight: 300;
+}
+
+.tab-area9 ul {
+    border: 0;
+}
+
+
+/********************
+Testimonial area CSS
+********************/
+
+.t9-area {
+    position: relative;
+    z-index: 1;
+    padding-top: 200px;
+    margin-top: -110px;
+}
+
+.t9-area:after {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    content: '';
+    background-image: url(../image/t9-bg.png);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.single-t9-content i {
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    background-color: #1657E2;
+    border-radius: 50%;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.single-t9-content h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.single-t9-content p {
+    font-style: italic;
+    font-size: 20px;
+    color: #001737;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.t9-img h4 span {
+    display: block;
+    font-size: 14px;
+    margin-top: 12px;
+    font-weight: 400;
+}
+
+.t9-img h4 {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.t9-content .owl-nav button {
+    position: absolute;
+    left: -100px;
+    top: 50%;
+    margin-top: -15px;
+}
+
+.t9-content .owl-nav button i {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    -webkit-box-shadow: 0 0 30px 0px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 30px 0px rgba(0, 0, 0, .1);
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.t9-content .owl-nav button.owl-next {
+    left: auto;
+    right: -100px;
+}
+
+
+/*******************
+Case Study area CSS
+*******************/
+
+.case-study9 {
+    padding-top: 80px;
+}
+
+.single-study9 {
+    -webkit-box-shadow: 0 0 30px -5px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 30px -5px rgba(0, 0, 0, .1);
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    border-radius: 10px;
+}
+
+.single-study9:hover {
+    -webkit-box-shadow: 0 5px 30px 0px rgba(0, 0, 0, .1);
+    box-shadow: 0 5px 30px 0px rgba(0, 0, 0, .1);
+}
+
+.single-study9 img {
+    border-radius: 10px 10px 0 0;
+}
+
+.single-study9 .study-text h3 a {
+    color: #001737;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    font-weight: 500;
+}
+
+.single-study9 .study-text h3:hover a {
+    color: #1657E2;
+    text-decoration: underline;
+}
+
+.case-study9 .title h4 {
+    color: #8392A5;
+    font-weight: 400;
+}
+
+.case-study9 .title {
+    margin-bottom: 50px;
+}
+
+
+/***************
+Footer area CSS
+***************/
+
+.footer9-area {
+    position: relative;
+    z-index: 1;
+    padding-top: 350px;
+    padding-bottom: 30px;
+}
+
+.footer9-area:after {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    content: '';
+    background-image: url(../image/footer-bg9.png);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.get-start h2 {
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.get-start .button {
+    background-color: #1657E2;
+    text-transform: capitalize;
+    margin: 0 6px;
+    -webkit-box-shadow: 0 15px 40px rgba(22, 87, 226, .3);
+    box-shadow: 0 15px 40px rgba(22, 87, 226, .3);
+}
+
+.get-start .start-btn-2 {
+    background-color: white;
+    color: #001737;
+    -webkit-box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.get-start .start-btn-2:hover {
+    color: white;
+}
+
+.footer9 h4 {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.footer9 li {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.footer9 li a {
+    display: block;
+    color: #C0CCDA;
+    font-size: 15px;
+    font-weight: 400;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.footer9 li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.copyright9,
+.copyright9 .copyright-section li a {
+    color: white;
+}
+
+.copy9-after {
+    position: relative;
+    z-index: 1;
+    padding-top: 30px;
+}
+
+.copy9-after:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1px;
+    content: "";
+    background-color: white;
+    z-index: -1;
+    opacity: .1;
+}

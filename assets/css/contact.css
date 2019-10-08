@@ -1,0 +1,149 @@
+/*************************
+CSS Index
+* Contact Page CSS
+* Details Page CSS
+*************************/
+
+
+/****************
+Contact Page CSS
+****************/
+
+.ct-content h2 {
+    margin-bottom: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.ct-content p {
+    font-size: 18px;
+}
+
+.ct-content {
+    margin-right: 20px;
+}
+
+.ct-map iframe {
+    height: 540px;
+    width: 100%;
+}
+
+.ct-forms input[type="text"],
+.ct-forms input[type="email"],
+.ct-forms textarea {
+    border: none;
+    -webkit-box-shadow: 0 5px 30px -10px rgba(0, 0, 0, .1);
+    box-shadow: 0 5px 30px -10px rgba(0, 0, 0, .1);
+    background-color: white !important;
+}
+
+.ct-page-area {
+    background-color: #F9FAFC;
+}
+
+.ct-forms button.button {
+    background-color: #4528EB;
+}
+
+.ct-icon .mdi {
+    font-size: 51px;
+    color: #1657E2;
+    margin-right: 15px;
+}
+
+.single-ct {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #E5E9F2;
+}
+
+.ct-text h5 {
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.m-t-100 {
+    margin-top: 100px;
+}
+
+.ct-icon {
+    width: 25%;
+}
+
+.ct-text {
+    width: 75%;
+}
+
+
+/****************
+Details Page CSS
+****************/
+
+.ds-content h3 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.ds-content {
+    margin-top: 55px;
+}
+
+.ds-content .list {
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+.ds-right ul li {
+    padding-bottom: 15px;
+    color: #576477;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.ds-right ul span {
+    color: #001737;
+    display: inline-block;
+    width: 170px;
+    font-weight: 500;
+}
+
+.ds-right {
+    background-color: white;
+    -webkit-box-shadow: 0 5px 30px -10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 30px -10px rgba(0, 0, 0, 0.1);
+    padding: 50px 30px;
+}
+
+.ds-page-area {
+    background-color: #F9FAFC;
+}
+
+.ds-right .button {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #4528EB;
+}
+
+.ds-right {
+    margin-top: 55px;
+}
+
+.copy-ds {
+    position: relative;
+    z-index: 1;
+    padding-top: 30px;
+}
+
+.copy-ds:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1px;
+    content: "";
+    background-color: white;
+    z-index: -1;
+    opacity: .1;
+}

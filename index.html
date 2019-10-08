@@ -1,409 +1,396 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta property="description" content="Simplata builds investigative analysis software that helps you understand who’s who in your dataset."/>
+	<meta name="keywords" content="Simplata, AML, KYC, CFT, cybersecurity, startup, analyst, graphs, visualization, intelligence">
 
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta property="description" content="Simplata builds collaborative entity and relationship management software that transforms the way analysts work with their data."/>
-    <meta name="keywords" content="Simplata, home, data, technology, software, solutions, analysis, graphs, visualization, intelligence, knowledge graph">
-
-    <!-- Preload -->
-    <link rel="preload" href="css/creative.css" as="style">
-    <link rel="preload" href="vendor/bootstrap/css/bootstrap.min.css" as="style">
-
-    <!-- Open Graph -->
+	<!-- Open Graph Social Sharing -->
     <meta property="og:site_name" content="Simplata"/>
     <meta property="og:title" content="Simplata - Understand the Connections in Your Data"/>
-    <meta property="og:description" content="Simplata builds collaborative entity and relationship management software that transforms the way analysts work with their data."/>
-    <meta property="og:image" content="http://www.simplata.io/img/thumbnail.png">
+    <meta property="og:description" content="We build investigative analysis software that helps you understand who’s who in your dataset."/>
+    <meta property="og:image" content="http://www.simplata.io/assets/image/thumbnail.png">
     <meta property="og:url" content="http://www.simplata.io/">
     <meta property="og:type" content="website"/>
 
-    <title>Simplata</title>
+	<!-- Title -->
+	<title>Simplata | Understand the Connections in Your Data</title>
 
-    <!-- Fonts -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
-    <!-- CSS -->
-    <link href="vendor/bootstrap/css/bootstrap-grid.css" rel="stylesheet">  <!-- Bootstrap other CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">  <!-- Bootstrap core CSS -->
-    <link href="css/creative.css" rel="stylesheet">
-    <link href="css/particles.css" rel="stylesheet">  <!-- Custom particles for this template -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">  <!-- Plugin CSS -->
-    <meta name="viewport" content="width=device-width">    
-
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="./img/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="./img/favicon/manifest.json">
+	<!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/image/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/image/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/image/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/image/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/image/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/image/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/image/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/image/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/image/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./assets/image/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/image/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/image/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/image/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/image/favicon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="./img/favicon/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="./assets/image/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-  </head>
+	<!-- All CSS -->
+	<link rel="stylesheet" href="assets/css/style-4.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/materialdesignicons.min.css">
+	<link rel="stylesheet" href="assets/css/fontawesome-5.8.1.css">
+	<link rel="stylesheet" href="assets/css/swiper.min.css">
+	<link rel="stylesheet" href="assets/css/lity.min.css">
+	<link rel="stylesheet" href="assets/css/slicknav.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/style-2.css">
+	<link rel="stylesheet" href="assets/css/style-3.css">
+	<link rel="stylesheet" href="assets/css/style-5.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+	<!-- preloader -->
 
-  <body id="page-top">
+    <div class="preloader"></div>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container navbar-align">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="./img/simplata-logo-just-words.png" class="navbar-logo"></a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#product">Product</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#solutions-scroll">Solutions</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="mailto:hello@simplata.io">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+	<!-- Header area -->
+	<div id="mainmenu-area">
+		<div class="header-area header-absolute header-4">
+			<div class="menu-container">
+				<div class="row">
+					<div class="col-lg-3 w-50">
+						<a href="index.html" class="header-logo">
+							<img src="assets/image/simplata-logo-just-words.png" alt="" class="logo-1">
+							<img src="assets/image/simplata-logo-just-words.png" alt="" class="logo-2">
+						</a>
+					</div>
+					<div class="col-lg-7 w-50 t-right">
+						<button class="toggle">
+							<span></span>
+						</button>
+						<div class="mainmenu">
+							<nav>
+								<ul>
+									<li><a class="nav-link" href="#who-we-are">Who we are</a></li>
+									<li><a class="nav-link" href="#what-we-do">What we do</a></li>
+									<li><a class="nav-link" href="#customers">Customers</a>
+										<ul>
+											<li><a href="./financial-institutions.html">Financial Institutions</a></li>
+											<li><a href="./cybersecurity.html">Cybersecurity</a></li>
+											<li><a href="./government.html">Government and OSINT</a></li>
+										</ul>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="header-btn">
+							<a href="#contact" class="button"><p class="button-text">Contact</p></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Header area -->
 
-    <header class="masthead text-center text-white d-flex">
-      <div class="container top-third-vertical resized-container-mobile">
-        <div class="row align-items-start">
-          <h1 class="text-blue text-white-box">
-            Understand the connections
-          </h1>
-        </div>
-        <div class="row align-items-center">
-          <h1 class="text-blue text-white-box">
-            in your data
-          </h1>
-        </div>
-        <div class="row align-items-start">
-          <p class="text-regular header-text">Advanced entity and relationship management software that makes working with data easy, engaging and productive.
-          </p>
-        </div>
-        <!-- <div class="row align-items-start">
-          <a class="btn btn-primary btn-xl btn-demo" href="https://demo.simplata.io">Launch Demo</a>
-        </div> -->
-      </div>
-    </header>
+	<!-- Hero area -->
+	<div class="hero-area o-hi hero-4">
+		<div class="container container-special">
+			<div class="row aic">
+				<div class="wow fadeInLeft" data-wow-delay="0.2s">
+					<h1>Understand the connections</h1>
+					<h1>in your data</h1>
+					<h3 id="who-we-are">Investigative software that helps you understand who’s who in your dataset.</h3>
+				</div>
+				<!-- <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.4s">
+					<div class="hero-4-img">
+						<img src="assets/image/Image-1.png" alt="">
+					</div>
+				</div> -->
+			</div>
+		</div>
+		<!-- Animation -->
+		<div class="animation-4">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<!-- End Hero area -->
 
-    <div class="transition-header"></div>
+		<!-- Understand area -->
+	<div class="understand-area pd-100">
+		<div class="container">
+			<div class="row aic">
+				<div class="col-lg-4 wow fadeInLeft" data-wow-delay="0.2s">
+					<div class="title">
+						<h2>Who we are</h2>
+					</div>
+				</div>
+				<div class="col-lg-6 wow fadeInRight" data-wow-delay="0.6s">
+					<div class="understand-text">
+						<div>
+							<p>Our mission is to build the most intuitive enterprise platform for visualizing and understanding networks of data. Companies, bank accounts, shareholders, IT networks – we give you the tools to analyze the connections between these data points.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-<!--     <section class="bg-primary" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">We've got what you need!</h2>
-            <hr class="light my-4">
-            <p class="text-faded mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
-          </div>
-        </div>
-      </div>
-    </section> -->
+		<div class="justify-content-around-row margin-top">
+			<div class="col-6 wow fadeInRight text-center no-padding-left special-image" data-wow-delay="0.4s">
+				<div class="understand-4-img left-shift">
+					<img src="assets/image/graph-preview.png" class="shadow-right" alt="">
+				</div>
+				<div id="what-we-do"></div>
+			</div>
+			<div class="col-6 ml-auto wow fadeInRight text-center margin-top no-padding-right dissapear" data-wow-delay="0.4s">
+				<div class="understand-4-img right-shift">
+					<img src="assets/image/repo-preview.png" class="shadow-left" alt="">
+				</div>
+			</div>
+		</div>
 
-    <section id="product">
-      <div class="container">
-        <div class="row align-items-start">
-            <h1 class="text-grey">A Platform for</h1>
-        </div>
-        <div class="row align-items-start">
-          <h1 class="text-grey">
-            Relationship Intelligence
-          </h1>
-        </div>
-      </div>
-      <span class="container product-box buffer no-padding">
-        <div class="col no-padding left-align mobile-padding">
-          <p class="text-regular text-grey">
-            Our software makes it easy for teams to structure and manage data.
-<!--             Use our software to unlock value from your data relationships – leveraging the power of human understanding to communicate data connectedness.
- -->      </p>
+		<div class="container margin-top" id="customers">
+			<div class="row aic">
+				<div class="col-md-4 wow fadeInLeft" data-wow-delay="0.2s">
+					<div class="title">
+						<h2>What we do</h2>
+					</div>
+				</div>
+				<div class="col-lg-6 wow fadeInRight" data-wow-delay="0.6s">
+					<div class="understand-text">
+						<div>
+							<p>We accelerate analysts ability to fight fraud, money-laundering, or cyber-security threats. Using graph technology, our software makes it easy to visualize, analyze and communicate complex scenarios.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Understand area -->
 
- <br/>
-            <span class="text-blue mobile-text">Unstructured data.</span> <span class="text-regular text-grey">Images. Emails. Documents. Videos.</span> <br/><span class="text-blue mobile-text">Structured data.</span> <span class="text-regular text-grey">Spreadsheets. Tables. Log Files. Databases.<span>
-          <p class="text-regular text-grey">
-            Unify all of your data with Simplata to visualize, analyze and communicate complex scenarios.
-          </p>
-          <p class="text-regular text-grey">
-            Identify patterns in risk, compliance, intelligence, healthcare and other
-            critical uses.
-          </p>
+	<!-- Testimonial area -->
+	<div class="testimonial-area pd-0 transitionable">
+		<div class="container special-margin-top">
+			<div class="row">
+				<div class="wow fadeInUp flex-center" data-wow-delay="0.2s">
+					<div class="t-title">
+						<h6>USE CASES</h6>
+						<h2>Financial Institutions<span class="servicedrop-1 mdi mdi-chevron-right right-icon"></span></h2>
+						<!-- <span class="nav-underline"></span> -->
+					</div>
+				</div>
+			</div>
 
-          <div class="row large-buffer features-container">
-            <div class="col-sm feature boxed text-center">
-              <div>
-                <img src="./img/search.png" class="sr-icon-4 feature-img">
-                <div>
-                  <span class="text-grey">Search</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm feature boxed text-center">
-              <div>
-                <img src="./img/discover.png" class="sr-icon-4 feature-img">
-                <div>
-                  <span class="text-grey">Discover</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm feature boxed text-center">
-              <div>
-                <img src="./img/network.png" class="sr-icon-4 feature-img">
-                  <div>
-                    <span class="text-grey">Connect</span>
-                  </div>
-              </div>
-            </div>
-          </div>
-        </div>
+			<div class="row transitionable">
+				<div class="servicedrop-1-items col-lg-12">
+					<div class="t-carousel nav-bar">					
+						<div class="single-c-item">
+							<h5>KYC with instant identity verification</h5>
+							<p>Verify a customer’s identity across multiple sanctions databases in under a minute. US OFAC, UN Security Council, and EU sanctions compliant.</p>
+						</div>
+						<div class="single-c-item">
+							<h5>Next-level anti-money laundering and fraud detection</h5>
+							<p>To beat the game, your software needs to understand the players. We instantly flag suspicious transactions for review and connect them to customer identity.</p>
+						</div>
+					</div>
+					<a href="./financial-institutions.html" class="use-case-link">
+						<div class="button button-buffer button-use-case">
+							READ MORE
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
 
+	<div class="testimonial-area pd-0 transitionable" id="testimonial">
+		<div class="container">
+			<div class="row">
+				<div class="wow fadeInUp flex-center" data-wow-delay="0.2s">
+					<div class="t-title">
+						<h2>Cybersecurity<span class="servicedrop-2 mdi mdi-chevron-right right-icon"></span></h2>
+						<!-- <span class="nav-underline"></span> -->
+					</div>
+				</div>
+			</div>
 
-        <div class="col mobile-special-delete" style="height: 51vw">
-        </div>
-        <div class="palette-preview-img-container">
-          <img src="./img/palette-demo-graph.png" class="palette-preview-img drop-shadow">
-          <div class="feature-adjust">
-            <h1 class="text-grey extra-large-buffer mobile-padding special-large">Features</h1>
-            <br>
-            <div class="row left-align">
-              <div class="col"><img src="./img/search.png" class="sr-icon-4 feature1-img"></div>
-              <div class="col"><img src="./img/storage.png" class="sr-icon-4 feature1-img"></div>
-            </div>
-            <div class="row left-align">
-              <div class="col"><h5 class="text-grey feature-inline">Rapid <span class="text-blue">Search</span></h5></div>
-              <div class="col"><h5 class="text-grey feature-inline">Secure <span class="text-blue">Storage</span></h5></div>
-            </div>
-            <div class="row left-align buffer">
-              <div class="col"><img src="./img/visualize.png" class="sr-icon-4 feature1-img"></div>
-              <div class="col"><img src="./img/resolution.png" class="sr-icon-4 feature1-img"></div>
-            </div>
-            <div class="row left-align">
-              <div class="col"><h5 class="text-grey feature-inline">Graph <span class="text-blue">Visualization</span></h5></div>
-              <div class="col"><h5 class="text-grey feature-inline">Entity <span class="text-blue">Resolution</span></h5></div>
-            </div>
-          </div>
-        </div>
-      </span>
+			<div class="row transitionable">
+				<div class="servicedrop-2-items col-lg-12">
+					<div class="t-carousel nav-bar">					
+						<div class="single-c-item">
+							<h5>Investigate Threats</h5>
+							<p>Upload malicious IT nodes and investigate their communication patterns in our platform.</p>
+						</div>
+						<div class="single-c-item">
+							<h5>Incident Response</h5>
+							<p>Automatically flag malicious network data and instantly expand affected networks.</p>
+						</div>
+					</div>
+					<a href="./cybersecurity.html" class="use-case-link">
+						<div class="button button-buffer button-use-case">
+							READ MORE
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
 
-      <div class="container">
-        <div class="col small-screen-expand"></div>
-        <div class="col"></div>
-      </div>
+	<div class="testimonial-area pd-0 transitionable" id="testimonial">
+		<div class="container special-margin-bottom">
+			<div class="row">
+				<div class="wow fadeInUp flex-center" data-wow-delay="0.2s">
+					<div class="t-title">
+						<h2 id="contact">Government and OSINT<span class="servicedrop-3 mdi mdi-chevron-right right-icon"></span></h2>
+						<!-- <span class="nav-underline"></span> -->
+					</div>
+				</div>
+			</div>
 
-      <!-- <span class="container product-box buffer no-padding"> -->
-        <img src="./img/palette-demo-entity-card.png" class="entity-preview-img drop-shadow">
-      <!-- </span> -->
-<!--       <span class="container product-box buffer no-padding">
-        <div class="container">
-          <div class="row align-items-start">
-            <h1 class="text-grey">Features</h2>
-          </div>
-        </div>
-        <br>
-        <p class="text-regular text-grey">
-          Data isn’t files and folders, nor is it excel spreadsheets. It’s entities, with connections that make them valuable.
-        </p>
-        <p class="text-regular text-grey">
-          Upload your data into Palette, our graph visualization software, and <b class="bold">explore connected entities.</b> Easily view attributes and expand nodes to better understand investigative reports, internal datasets and other
-          critical datasets.
-        </p>
-      </span> -->
-    </section>
+			<div class="row transitionable">
+				<div class="servicedrop-3-items col-lg-12">
+					<div class="t-carousel nav-bar">					
+						<div class="single-c-item">
+							<h5>Track bad actors</h5>
+							<p>Make your data easy to work with through intuitive graph technology.</p>
+						</div>
+						<div class="single-c-item">
+							<h5>Share your findings</h5>
+							<p>Easily publish your graph, and show your graph with your report.</p>
+						</div>
+					</div>
+					<a href="./government.html" class="use-case-link">
+						<div class="button button-buffer button-use-case">
+							READ MORE
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Testimonial area -->
 
+	<!-- Contact area -->
+	<div class="contact-area pd-80 o-hi">
+		<div class="container">
+			<div class="row aic">
+				<div class="col-lg-6">
+					<div class="contact-form">
+						<div class="title wow fadeInUp" data-wow-delay="0.2s">
+							<h2>Ready to learn more?</h2>
+						</div>
+						<form class="wow fadeInUp" data-wow-delay="0.4s" action="https://formspree.io/xkdgpoem" method="POST" id="contact-form">
+							<div class="row">
+								<div class="col-lg-6 col-md-6">
+									<div class="form-group">
+										<label for="first-name">First Name</label>
+										<input name="first-name" type="text" class="form-control" placeholder="First Name">
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="form-group">
+										<label for="last-name">Last Name</label>
+										<input type="text" class="form-control" name="last-name" placeholder="Last Name">
+									</div>
+								</div>
+								<div class="col-lg-12">
+									<div class="form-group">
+										<label for="email">Email</label>
+										<input type="email" class="form-control" name="email" placeholder="Email">
+									</div>
+								</div>
+								<div class="col-lg-12">
+									<div class="form-group">
+										<label for="company-name">Company</label>
+										<input type="text" class="form-control" name="company-name" placeholder="Company">
+									</div>
+									<button type="submit" class="button"><span class="mdi mdi-send button-text"></span></button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Contact area -->
 
+    <!-- Footer area -->
+    <div class="footer-area-3 footer-3">
+    	<div class="footer">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-lg-5">
+    					<a href="index.html" class="footer-logo">
+							<img src="assets/image/favicon-v2-inverted-square.png" alt="">
+						</a>
+						<p class="mt-20">Understand the connections in your data.</p>
+    				</div>
+    				<div class="col-lg-7">
+    					<div class="row justify-content-between">
+    						<div class="col-lg-4 col-md-4">
+	    						<div class="footer-menu">
+	    							<ul>
+	    								<li><a href="#who-we-are">Who we are</a></li>
+	    								<li><a href="#what-we-do">What we do</a></li>
+	    								<li><a href="#customers">Customers</a></li>
+	    								<li><a href="#contact">Contact</a></li>
+	    							</ul>
+	    						</div>
+    						</div>
+    						<div class="col-lg-4 col-md-4">
+    							<p class="f-menu-item">hello@simplata.io</p>
+    							<ul>
+    								<li><a href="https://github.com/Simplata/" data-toggle="tooltip" title="" data-placement="left" data-original-title="Github"><span class="mdi mdi-github-circle"></span></a></li>
+    								<li><a style="margin-left: 10px;" href="https://www.linkedin.com/company/simplata" data-toggle="tooltip" title="" data-placement="top" data-original-title="Linkedin"><span class="mdi mdi-linkedin"></span></a></li>
+    							</ul>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    	<div class="copyright">
+    		<div class="container">
+    			<div class="row">
+					<p class="f-menu-bottom">© 2019 Simplata, Inc.</p>
+					<a class="f-menu-bottom special-link" href="./terms-of-use.html">Terms of Use</a>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <!-- End Footer area -->
 
-    <div class="solutions-header"></div>
-    <section id="solutions">
-      <div class="container">
-        <div class="row" style="height: 10px; width: 10px; position: absolute; margin-top: -130px;" id="solutions-scroll"></div>
-        <div class="row">
-          <div class="col large-buffer">
-            <h2 class="text-blue text-white-box center-special" style="width: fit-content;">
-              Risk & Compliance
-            </h2>
-            <p class="text-regular text-grey">We make Anti-Money Laundering, Know Your Customer, Sanctions Compliance, and Procurement Validation simple. Use our software for accurate, entity-drive compliance.</p>
-            <h2 class="text-blue text-white-box large-buffer center-special" style="width: fit-content;">
-              Defense Intelligence
-            </h2>
-            <p class="text-regular text-grey">Look beyond covert data. Seamlessly integrate unstructured, public data with your private data to reveal hidden connections.</p>
-          </div>
-          <div class="col negative-large-buffer solutions-center" style="padding: 0;">
-            <div>
-              <img src="./img/network.png" class="sr-icon-4 feature-img">
-              <h2 class="text-blue title-inline">Understand </h2><h2 class="text-grey title-inline">Connections</h2>
-              <p class="text-grey text-solutions">Perform analysis of complex networks in a simple and comprehensive way.</p>
-            </div>
-            <div class="large-buffer">
-              <img src="./img/trending.png" class="sr-icon-4 feature-img">
-              <h2 class="text-blue title-inline">Source </h2><h2 class="text-grey title-inline">Data</h2>
-              <p class="text-grey text-solutions">Tie information back to its source. Keep track of all versions and watch your data change over time.</p>
-            </div>
-            <div class="large-buffer">
-              <img src="./img/team.png" class="sr-icon-4 feature-img">
-              <h2 class="text-blue title-inline">Collaborate </h2><h2 class="text-grey title-inline">Effortlessly</h2>
-              <p class="text-grey text-solutions">Fuel collaboration within or across teams with real-time editing and teaming features.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div class="solutions-end"></div>
-
-    <section id="footer" style="position: relative;">
-      <!-- particles.js container -->
-      <div class="container footer-content-special">
-        <div class="row large-buffer right-align">
-          <h1 class="text-blue text-white-box">
-            Transform your data
-          </h1>
-        </div>
-        <div class="row right-align">
-          <h1 class="text-blue text-white-box">
-            into solutions 
-          </h1>
-        </div>
-        <div class="row">
-          <div class="col buffer">
-            <p class="text-white">Simplata builds collaborative entity and relationship management software. We're creating a new standard for data perception, communication and analysis by unlocking value from connectedness.
-            </p>
-          </div>
-          <div class="col"></div>
-        </div>
-        <div class="row buffer">
-          <div class="col">
-            <div class="navbar-nav" style="display: inline-flex; width: 100%; justify-content: space-between; align-items: flex-start; flex-direction: row;">
-              <div class="footer-item">
-                <b class="bold"><a class="bottom-nav-link text-white js-scroll-trigger" href="#product" style="pointer-events: all;">Product</a></b>
-              </div>
-              <div class="footer-item">
-                <a class="bottom-nav-link text-white js-scroll-trigger" href="#solutions-scroll" style="pointer-events: all;">Solutions</a>
-              </div> 
-<!--               <div class="footer-item">
-                <a class="bottom-nav-link text-white js-scroll-trigger" href="./team.html" style="pointer-events: all;">Leadership</a>
-              </div> -->
-              <div class="footer-item">
-                <a class="bottom-nav-link text-white js-scroll-trigger" href="mailto:hello@simplata.io" style="pointer-events: all;">Contact</a>
-              </div>
-            </div>
-          </div>
-          <div class="col"></div>
-          <div class="col"></div>
-        </div>
-        <div class="footer-legal buffer">
-            <span class="footer-legal-block text-white">© Simplata, Inc.</span>
-            <a href="./terms-of-use.html" class="footer-legal-block text-white footer-link" style="pointer-events: all;">Terms of Use</a>
-        </div>
-      </div>
-      <div id="particles-js" style="position: absolute;"></div>
-    </section>
-
-<!--     <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">Let's Get In Touch!</h2>
-            <hr class="my-4">
-            <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 ml-auto text-center">
-            <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
-            <p>123-456-6789</p>
-          </div>
-          <div class="col-lg-4 mr-auto text-center">
-            <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
-            <p>
-              <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-<!--     <footer id="footer">
-      <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-sm-4">
-                <img alt="logo" class="navbar-logo" src="img/simplata-logo-just-words.png" />
-                <p>
-                    <em>Digital Design Melbourne</em>
-                </p>
-            </div>
-            <div class="col-md-4 col-sm-8">
-            </div>
-            <div class="col-md-4 col-md-offset-1 col-sm-12">
-                <h6 class="btn-demo">Connect with Us</h6>
-                <ul class="social-list">
-                    <li>
-                        <a href="#">
-                            <i class="socicon-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="socicon-dribbble"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="socicon-vimeo"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="socicon-instagram"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="socicon-spotify"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="socicon-behance"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-      </div>
-    </footer> -->
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/creative.min.js"></script>
-    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
-    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
-    <!-- Custom scripts for this template -->
-    <script src="js/particles.js"></script>
-
-  </body>
-
+	<!-- All JS -->
+	<script src="assets/js/jquery-1.12.4.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/swiper.min.js"></script>
+	<script src="assets/js/jquery.counterup.min.js"></script>
+	<script src="assets/js/waypoints.min.js"></script>
+	<script src="assets/js/jquery.sticky.js"></script>
+	<script src="assets/js/scrolltotop.js"></script>
+	<script src="assets/js/jquery.ajaxchimp.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+	<script src="assets/js/lity.min.js"></script>
+	<script src="assets/js/smooth-scroll.min.js"></script>
+	<script src="assets/js/slicknav-min.js"></script>
+	<script src="assets/js/jquery.barChart.js"></script>
+	<script src="assets/js/jquery.barfiller.js"></script>
+	<script src="assets/js/jquery.lineProgressbar.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
 </html>
