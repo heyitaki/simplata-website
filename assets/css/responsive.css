@@ -850,6 +850,10 @@
         /*height: 50vh;*/
     }
 
+    .dissapear {
+        display: none !important;
+    }
+
     .special-image {
         max-width: none;
         flex: none;
