@@ -991,7 +991,9 @@
     }
 
     .single-c-item {
-        margin: 0;
+        padding: 20px 20px;
+        height: fit-content;
+        width: fit-content;
     }
 
     .t-title {
