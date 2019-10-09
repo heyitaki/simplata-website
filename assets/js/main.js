@@ -108,13 +108,13 @@
 		$(".servicedrop-3-items .use-case-link").hide();
 
 		$('.servicedrop-1').on('click', function() {
-			if ($(".servicedrop-1").hasClass('mdi-chevron-right')) {
-				$(".servicedrop-1").addClass('mdi-chevron-down').removeClass('mdi-chevron-right');
+			if ($(".servicedrop-1-arrow").hasClass('mdi-chevron-right')) {
+				$(".servicedrop-1-arrow").addClass('mdi-chevron-down').removeClass('mdi-chevron-right');
 
 				$(".servicedrop-1-items .single-c-item").fadeIn(500);
 				$(".servicedrop-1-items .use-case-link").fadeIn(500);
 			} else {
-				$(".servicedrop-1").addClass('mdi-chevron-right').removeClass('mdi-chevron-down');
+				$(".servicedrop-1-arrow").addClass('mdi-chevron-right').removeClass('mdi-chevron-down');
 
 				$(".servicedrop-1-items .single-c-item").hide();
 				$(".servicedrop-1-items .use-case-link").hide();
@@ -122,13 +122,13 @@
 		});
 
 		$('.servicedrop-2').on('click', function() {
-			if ($(".servicedrop-2").hasClass('mdi-chevron-right')) {
-				$(".servicedrop-2").addClass('mdi-chevron-down').removeClass('mdi-chevron-right');
+			if ($(".servicedrop-2-arrow").hasClass('mdi-chevron-right')) {
+				$(".servicedrop-2-arrow").addClass('mdi-chevron-down').removeClass('mdi-chevron-right');
 
 				$(".servicedrop-2-items .single-c-item").fadeIn(500);
 				$(".servicedrop-2-items .use-case-link").fadeIn(500);
 			} else {
-				$(".servicedrop-2").addClass('mdi-chevron-right').removeClass('mdi-chevron-down');
+				$(".servicedrop-2-arrow").addClass('mdi-chevron-right').removeClass('mdi-chevron-down');
 
 				$(".servicedrop-2-items .single-c-item").hide();
 				$(".servicedrop-2-items .use-case-link").hide();
@@ -136,13 +136,13 @@
 		});
 
 		$('.servicedrop-3').on('click', function() {
-			if ($(".servicedrop-3").hasClass('mdi-chevron-right')) {
-				$(".servicedrop-3").addClass('mdi-chevron-down').removeClass('mdi-chevron-right');
+			if ($(".servicedrop-3-arrow").hasClass('mdi-chevron-right')) {
+				$(".servicedrop-3-arrow").addClass('mdi-chevron-down').removeClass('mdi-chevron-right');
 
 				$(".servicedrop-3-items .single-c-item").fadeIn(500);
 				$(".servicedrop-3-items .use-case-link").fadeIn(500);
 			} else {
-				$(".servicedrop-3").addClass('mdi-chevron-right').removeClass('mdi-chevron-down');
+				$(".servicedrop-3-arrow").addClass('mdi-chevron-right').removeClass('mdi-chevron-down');
 
 				$(".servicedrop-3-items .single-c-item").hide();
 				$(".servicedrop-3-items .use-case-link").hide();
