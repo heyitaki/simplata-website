@@ -505,13 +505,13 @@ Understand area CSS
 }
 
 .left-shift {
-    display: flex;
-    justify-content: flex-start;
+/*    display: flex;
+    justify-content: flex-start;*/
 }
 
 .right-shift {
-    display: flex;
-    justify-content: flex-end;
+    /*display: flex;
+    justify-content: flex-end;*/
 }
 
 /****************

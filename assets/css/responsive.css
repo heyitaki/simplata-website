@@ -1168,6 +1168,8 @@
         padding: 0;
         background-color: transparent;
         padding: 16px 26px;
+        padding-bottom: 0px;
+        padding-top: 0px;
     }
 
     .hero-4 h3 {
