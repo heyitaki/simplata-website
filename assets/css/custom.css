@@ -6,6 +6,10 @@
   -o-user-select: none;
 }
 
+#use-cases-header {
+  padding-bottom: 10px;
+}
+
 .t-title {
   cursor: pointer;
 }
