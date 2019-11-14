@@ -16,10 +16,16 @@
 
 .stealth {
 	background-color: #001529;
-	margin-top: 100px;
+	margin-top: 150px;
 }
 
 .text {
 	color: white;
 	    margin-top: 15px;
+}
+
+.f-1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 }
