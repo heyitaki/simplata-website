@@ -21,7 +21,7 @@ Base CSS
 
 body {
     font-size: 16px;
-    background-color: #E5E9F2
+    background-color: #001529
 }
 
 input:focus {
@@ -96,9 +96,9 @@ Hero area CSS
 .hero-title-5:after,
 .contact-area:before,
 .contact-img:after {
-    background: #ffffff;
+    /*background: #ffffff;
     background: linear-gradient(to right, #ffffff 1%, #e2eeff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e2eeff', GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e2eeff', GradientType=1);*/
 }
 
 .hero-title-5 {
