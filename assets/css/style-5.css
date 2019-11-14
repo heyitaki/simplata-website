@@ -495,10 +495,10 @@ Contact area CSS
 }
 
 .contact-form button.button:hover {
-    -webkit-box-shadow: 0px 0px 5px 0px;
-    box-shadow: 0px 0px 5px 0px;
-    color: #1890ff;
-    transform: translateY(-1px);
+    -webkit-box-shadow: 0px 0px 3px 0px;
+    box-shadow: 0px 0px 3px 0px;
+    color: white;
+    transform: translateY(-1px) translateX(1px);
 }
 
 .contact-form .button-text:hover {
