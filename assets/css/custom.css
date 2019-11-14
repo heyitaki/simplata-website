@@ -13,3 +13,13 @@
 .t-title {
   cursor: pointer;
 }
+
+.stealth {
+	background-color: #001529;
+	margin-top: 100px;
+}
+
+.text {
+	color: white;
+	    margin-top: 15px;
+}
