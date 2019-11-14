@@ -29,3 +29,7 @@
 	flex-direction: column;
 	justify-content: flex-start;
 }
+
+.margin-right {
+	margin-right: 10px;
+}
