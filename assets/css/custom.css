@@ -1,0 +1,35 @@
+.unselectable {
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+
+#use-cases-header {
+  padding-bottom: 10px;
+}
+
+.t-title {
+  cursor: pointer;
+}
+
+.stealth {
+	background-color: #001529;
+	margin-top: 150px;
+}
+
+.text {
+	color: white;
+	    margin-top: 15px;
+}
+
+.f-1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.margin-right {
+	margin-right: 10px;
+}

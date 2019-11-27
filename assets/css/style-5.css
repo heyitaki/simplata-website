@@ -21,7 +21,7 @@ Base CSS
 
 body {
     font-size: 16px;
-    background-color: #E5E9F2
+    background-color: #001529
 }
 
 input:focus {
@@ -96,9 +96,9 @@ Hero area CSS
 .hero-title-5:after,
 .contact-area:before,
 .contact-img:after {
-    background: #ffffff;
+    /*background: #ffffff;
     background: linear-gradient(to right, #ffffff 1%, #e2eeff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e2eeff', GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e2eeff', GradientType=1);*/
 }
 
 .hero-title-5 {
@@ -495,10 +495,10 @@ Contact area CSS
 }
 
 .contact-form button.button:hover {
-    -webkit-box-shadow: 0px 0px 5px 0px;
-    box-shadow: 0px 0px 5px 0px;
-    color: #1890ff;
-    transform: translateY(-1px);
+    -webkit-box-shadow: 0px 0px 3px 0px;
+    box-shadow: 0px 0px 3px 0px;
+    color: white;
+    transform: translateY(-1px) translateX(1px);
 }
 
 .contact-form .button-text:hover {

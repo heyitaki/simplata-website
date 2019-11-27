@@ -850,6 +850,10 @@
         /*height: 50vh;*/
     }
 
+    .dissapear {
+        display: none !important;
+    }
+
     .special-image {
         max-width: none;
         flex: none;
@@ -987,7 +991,9 @@
     }
 
     .single-c-item {
-        margin: 0;
+        padding: 20px 20px;
+        height: fit-content;
+        width: fit-content;
     }
 
     .t-title {
@@ -1162,6 +1168,8 @@
         padding: 0;
         background-color: transparent;
         padding: 16px 26px;
+        padding-bottom: 0px;
+        padding-top: 0px;
     }
 
     .hero-4 h3 {
